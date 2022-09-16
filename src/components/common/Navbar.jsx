@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import navlines from "../../img/navlines.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,12 +9,12 @@ const Navbar = () => {
   }, [isOpen]);
   return (
     <nav className="bg-main-black">
-      <div className="mx-[2rem]  flex text-white justify-between items-center xl:pt-16  lg:pt-8 lg:mx-[3rem] xl:mx-[6rem]">
-        <div className="lg:ml-4">
+      <div className="mx-[2rem]  flex text-white justify-between items-center xl:pt-18  lg:pt-[8rem] lg:mx-[3rem] xl:mx-[6rem] ">
+        <div className=" lg:h-[5rem] ">
           <img
             src="logo1.png"
             alt=""
-            className="w-[4rem] lg:w-[6rem] xl:w-[7.5rem]"
+            className="w-[4rem] lg:w-[6rem] xl:w-[7.5rem] flex flex-grow"
           />
         </div>
         {/* <div className="p-4 ">
@@ -56,16 +57,32 @@ const Navbar = () => {
             </div>
           </div>
         </div> */}
-        <div className="flex justify-center items-center gap-[6rem] lg:gap-[8rem]">
-          <div className="hidden lg:flex gap-[3rem] lg:text-[1.5rem]">
-            <a href="#">Inductries</a>
-            <a href="#">Capabilities</a>
-            <a href="#">Expertise</a>
-            <a href="#">About Us</a>
+        <div className="flex justify-center items-center gap-[6rem] lg:gap-[5rem] lg:h-[5rem]">
+          <div>
+            <div className="hidden  lg:flex lg:gap-[3rem]  xl:gap-[5rem] lg:text-[1.5rem]">
+              <a href="#" className=" ">
+                Industries
+              </a>
+              <a href="#" className=" ">
+                Capabilities
+              </a>
+              <a href="#" className="">
+                Expertise
+              </a>
+              <a href="#" className="">
+                About Us
+              </a>
+            </div>
+            <div className="hidden lg:flex lg:gap-[5rem] items-center justify-center ">
+              <div className="text-white">.</div>
+              <div className="text-white">.</div>
+              <div className="text-white">.</div>
+              <div className="text-white">.</div>
+            </div>
           </div>
 
-          <nav>
-            <div className="navbar">
+          <nav className="z-50">
+            <div className="navbar lg:h-[5rem]">
               <div className="container nav-container">
                 <input className="checkbox" type="checkbox" name="" id="" />
                 <div className="hamburger-lines">
@@ -77,7 +94,7 @@ const Navbar = () => {
                 <div className="menu-items">
                   <ul className="bg-white z-10 w-full">
                     <li>
-                      <a href="#">Inductries</a>
+                      <a href="#">Industries</a>
                     </li>
                     <li>
                       <a href="#">Capabilities</a>
