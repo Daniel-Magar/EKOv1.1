@@ -194,3 +194,9 @@ body {
 .nav-container input[type="checkbox"]:checked ~ .logo {
   display: none;
 }
+
+/* .myimg {
+  height: 9rem;
+
+  transition:  all 0.35s ease-in-out;
+} */
