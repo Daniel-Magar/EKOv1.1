@@ -34,10 +34,10 @@ export function Button3() {
   return (
     <div className="w-full">
       <p className="text-fade-gray text-[1rem] lg:text-[1.5rem] xl:text-[2rem] p-3 ">
-        We deliver &nbsp;
-        <span className="text-white font-bold">values and ethics</span>
+        Lorem ipsum dolar &nbsp;
+        <span className="text-white font-bold">text text text</span>
         &nbsp; we understand &nbsp;
-        <span className="text-white font-bold"> your requirement.</span>
+        <span className="text-white font-bold"> text text text text</span>
         &nbsp;
       </p>
     </div>
