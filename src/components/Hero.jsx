@@ -64,11 +64,9 @@ const Hero = () => {
       setBtn1(true);
     }
   };
-  // useEffect(() => {
-  //   setLinkText(arr);
-  // }, [arr]);
+
   return (
-    <div className="bg-black h-[80vh] w-full">
+    <div className="bg-black w-full mb-[3rem] ">
       <div className="relative">
         {/* Mobile Screen */}
         <div className="flex flex-col gap-5 lg:hidden md:hidden ">
@@ -194,7 +192,9 @@ const Hero = () => {
                   </div>
                 </div>
                 <div className="flex justify-end items-end  flex-1 mx-[2rem]">
-                  <img src={rightUpArrow} alt="" />
+                  <button>
+                    <img src={rightUpArrow} alt="arrow" />
+                  </button>
                 </div>
               </div>
             </div>
@@ -324,40 +324,30 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-full items-start justify-start flex-1 z-[1] border border-red-500   grow">
+          <div className="flex flex-col w-full items-start justify-start flex-1 z-[1]   grow">
             {/* <div className="w-full aspect-w-16 aspect-h-9"> */}
-            <div className=" border w-full flex justify-start items-center mt-0">
+            <div className="  w-full flex justify-start items-center mt-0">
               <img
                 src={eko1}
                 alt="hero"
-                className=" object-contain w-full  border-none"
+                className=" object-contain w-full border-none"
               />
             </div>
             <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[8rem]">
               <div className="flex flex-col">
-                <div className="uppercase">Get Started</div>
-                <div className="w-full   flex gap-1 ">
-                  <div className="border border-bright-blue w-[70%]"></div>
-                  <div className="border border-main-black w-20%"></div>
-                  <div className="border border-bright-blue w-[20%]"></div>
+                <div className="uppercase text-3xl">Get Started</div>
+                <div className="w-full   flex gap-3 ">
+                  <div className="border border-bright-blue w-[80%]"></div>
+                  <div className="border border-main-black w-30%"></div>
+                  <div className="border border-bright-blue w-[10%]"></div>
                 </div>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col md:mr-[3rem] lg:mr-[3rem] xl:mr-[6rem]">
                 <div className="">
                   <img src={rightUpArrow} alt="" />
                 </div>
                 <div className="py-1"></div>
               </div>
-              {/* <div className="flex flex-col uppercase p-3">
-                <div>Get Started</div>
-                <div className="flex w-full">
-                  <div>1</div>
-                  <div>1</div>
-                </div>
-              </div>
-              <div className="p-3 flex justify-start items-start border ">
-                Arrow
-              </div> */}
             </div>
           </div>
         </div>
