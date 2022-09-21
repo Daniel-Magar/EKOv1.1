@@ -72,7 +72,7 @@ const Hero = () => {
         <div className="flex flex-col gap-5 lg:hidden md:hidden ">
           <div className="mx-[2rem]">
             <div className="flex items-center justify-center text-center md:justify-start md:text-left lg:justify-start lg:text-left">
-              <h1 className="uppercase text-white lg:text-[1rem] xl:text-[2rem]">
+              <h1 className="uppercase text-white lg:text-[1rem] xl:text-[1rem]">
                 eko solutions powers
               </h1>
             </div>
