@@ -212,15 +212,15 @@ const Hero = () => {
                   </h1>
                 </div>
                 <div className="flex items-center justify-center md:justify-start lg:justify-start">
-                  <h1 className="text-bright-blue flex text-center md:text-left lg:text-left items-center justify-center text-[2rem] lg:text-[4rem] xl:text-[6rem] font-bold">
+                  <h1 className="text-bright-blue flex text-center md:text-left lg:text-left items-center justify-center text-[2rem] lg:text-[3rem] xl:text-[3.5rem] font-bold">
                     your marketing.
                   </h1>
                 </div>
               </div>
 
-              <div className="mx-[3rem] md:mx-[3rem] lg:mx-[3rem] xl:mx-[6rem] h-auto mt-[4rem] mx-1rem  min-h-[5rem] lg:min-h-[5rem] max-h-full border border-l-bright-blue border-b-0 border-t-0 border-r-0 ">
+              <div className="mx-[3rem] md:mx-[3rem] lg:mx-[3rem] xl:mx-[6rem] h-auto lg:mt-[2.5rem] xl:mt-[4rem] mx-1rem  min-h-[5rem] lg:min-h-[5rem] max-h-full border border-l-bright-blue border-b-0 border-t-0 border-r-0 ">
                 <div className="  md:min-w-[100%] lg:min-w-[100%] xl:min-w-[100%] min-h-[5rem] lg:min-h-[5rem] ">
-                  <div>
+                  <div className="transition-all duration-[.5s] ease-in-out mytrans">
                     {btn1 == true ? <Button1 /> : ""}
                     {btn2 == true ? <Button2 /> : ""}
                     {btn3 == true ? <Button3 /> : ""}
@@ -239,7 +239,7 @@ const Hero = () => {
                   <div className="flex flex-col gap-4 xl:min-w-[18rem]">
                     <div>
                       <div className=" mt-12">
-                        <div>
+                        <div className="">
                           <button
                             onClick={() => changeText(1)}
                             className="text-left md:ml-[3rem] lg:ml-[3rem] xl:ml-[6rem] text-white"
@@ -249,8 +249,8 @@ const Hero = () => {
                           <div
                             className={
                               btn1 == !true
-                                ? `list-none font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
-                                : `list-none text-left text-fade-gray`
+                                ? `transition-all duration-700 ease-in-out font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
+                                : `list-none text-left text-fade-gray ml-[-2rem]`
                             }
                           ></div>
                         </div>
@@ -267,7 +267,7 @@ const Hero = () => {
                         <div
                           className={
                             btn2 == !true
-                              ? `list-none font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
+                              ? `transition-all duration-700 ease-in-out font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
                               : `list-none text-left text-fade-gray`
                           }
                         ></div>
@@ -284,7 +284,7 @@ const Hero = () => {
                         <div
                           className={
                             btn3 == !true
-                              ? `list-none font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
+                              ? `transition-all duration-700 ease-in-out font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
                               : `list-none text-left text-fade-gray`
                           }
                         ></div>
@@ -292,19 +292,19 @@ const Hero = () => {
                     </div>
                   </div>
                   <div className=" ml-5 lg:ml-5 xl:ml-3  ">
-                    <div className="flex w-full  ">
+                    <div className={btn1==true || btn2==true? "flex w-full lg:ml-[-2px]": ""}>
                       {btn1 == true ? (
-                        <div className="">
+                        <div className="lg:ml-[-3rem]">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[37rem] "></div> */}
-                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[6rem] xl:px-[8rem] border-b-bright-blue border-r-bright-blue md:min-h-[3.8rem] lg:min-h-[3.8rem] xl:min-h-[4rem] relative left-0 right-0 bottom-0"></div>
+                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[3.8rem] lg:min-h-[3.8rem] xl:min-h-[4rem] relative left-0 right-0 bottom-0"></div>
                         </div>
                       ) : (
                         ""
                       )}
                       {btn2 == true ? (
-                        <div className="">
+                        <div className="lg:ml-[-3rem]">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[39.2rem]"></div> */}
-                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[6rem] xl:px-[8rem] border-b-bright-blue border-r-bright-blue md:min-h-[6.5rem] lg:min-h-[6.2rem] xl:min-h-[7.5rem] relative"></div>
+                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[6.5rem] lg:min-h-[6.2rem] xl:min-h-[7.5rem] relative"></div>
                         </div>
                       ) : (
                         ""
@@ -312,7 +312,7 @@ const Hero = () => {
                       {btn3 == true ? (
                         <div className="">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[42.2rem]"></div> */}
-                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[6rem] xl:px-[8rem] border-b-bright-blue border-r-bright-blue md:min-h-[8.8rem] lg:min-h-[8.7rem] xl:min-h-[11rem] relative"></div>
+                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[8.8rem] lg:min-h-[8.7rem] xl:min-h-[11rem] relative"></div>
                         </div>
                       ) : (
                         ""
