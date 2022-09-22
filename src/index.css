@@ -10,7 +10,7 @@
 }
 body {
   margin: 0;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .container {
@@ -351,15 +351,25 @@ body {
   -ms-transform: skew(-20deg);
   transform: skew(-20deg);
 } */
-.mytrans{
+.mytrans {
   transform-origin: 0% 100%;
   transition: transform 0.4s ease-in-out;
 }
 
 @keyframes in {
-  0%   {width: 0%; }
-  25%  {width: 25%}
-  50%  {width: 50%}
-  75%  {width: 75%}
-  100% {width: 100% }
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 25%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 75%;
+  }
+  100% {
+    width: 100%;
+  }
 }

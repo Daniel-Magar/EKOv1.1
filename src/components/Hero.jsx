@@ -66,7 +66,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-black w-full mb-[3rem] ">
+    <div className="bg-black w-full ">
       <div className="relative">
         {/* Mobile Screen */}
         <div className="flex flex-col gap-5 lg:hidden md:hidden ">
@@ -292,7 +292,13 @@ const Hero = () => {
                     </div>
                   </div>
                   <div className=" ml-5 lg:ml-5 xl:ml-3  ">
-                    <div className={btn1==true || btn2==true? "flex w-full lg:ml-[-2px]": ""}>
+                    <div
+                      className={
+                        btn1 == true || btn2 == true
+                          ? "flex w-full lg:ml-[-2px]"
+                          : ""
+                      }
+                    >
                       {btn1 == true ? (
                         <div className="lg:ml-[-3rem]">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[37rem] "></div> */}
