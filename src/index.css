@@ -10,7 +10,7 @@
 }
 body {
   margin: 0;
-  /* background-color: black; */
+  background-color: black;
 }
 
 .container {
@@ -372,4 +372,29 @@ body {
   100% {
     width: 100%;
   }
+}
+
+/* .cone {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 100px solid red;
+  border-radius: 50%;
+} */
+
+.right {
+  background: #9e978e;
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  /* height: 90px;
+  width: 45px; */
+}
+.right {
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
 }
