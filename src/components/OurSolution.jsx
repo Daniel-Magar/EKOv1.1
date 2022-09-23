@@ -15,18 +15,26 @@ const OurSolution = () => {
   return (
     <section className="py-[2rem] lg:py-10 ">
       <div className="bg-main-black">
-        <div className=" py-8 flex justify-center items-start text-left lg:gap-1 xl:gap-2">
-          <div className=" flex-1  text-white relative ">
+        <div className=" flex justify-between items-end text-white mr-6 md:mr-[2rem] ">
+          <div className="text-white "></div>
+          <div className="text-white ">
+            <h1 className="font-semibold text-lg lg:text-4xl uppercase">
+              Our Solutions
+            </h1>
+          </div>
+        </div>
+        <div className="mr-7 md:mr-2 mt-[3rem] md:mt-[1rem] flex justify-center items-start text-left lg:gap-1 xl:gap-2">
+          <div className=" flex-1 md:flex-1   text-white relative  ">
             <div className="inline-block    ml-[-7rem] md:ml-0 lg:ml-0 xl:ml-0 overflow-hidden">
               <img
                 src={world2}
                 alt="globe"
-                className="object-cover min-w-[5rem] max-w-[26rem]  md:max-w-lg lg:max-w-3xl xl:max-w-3xl overflow-hidden"
+                className="object-cover min-w-[5rem] max-w-[26rem]  md:max-w-lg lg:max-w-3xl xl:max-w-5xl overflow-hidden"
               />
             </div>
           </div>
 
-          <div className=" mt-[-4rem]  left-[3rem] md:mt-[-2rem] md:left-[16rem]  h-[100%] w-[75%] md:w-[44%] lg:w-45% xl:w-[45%]  md:min-h-fit lg:min-h-fit  lg:ml-[5rem] xl:ml-[4rem] text-white absolute z-1 right-0 ">
+          <div className=" mt-[-4rem]  left-[2rem]  md:mt-[-2rem] md:left-[16rem]  h-[100%] w-[75%] md:w-[44%] lg:w-45% xl:w-[70%]  md:min-h-fit lg:min-h-fit  lg:ml-[5rem] xl:ml-[10rem] text-white absolute z-1 right-0 ">
             <div className="top-[2rem] md:top-[1rem] lg:top-[3rem] flex flex-col justify-start items-start relative">
               {/* 1 */}
               {/* <div className=" flex justify-center items-center  ml-[0.5rem] top-[0.9rem] absolute bottom-0 right-0 left-0"> */}
@@ -35,14 +43,14 @@ const OurSolution = () => {
                   <img
                     src={DottedLineSm}
                     alt=""
-                    className="w-[7rem] md:w-[10rem] lg:w-[15rem]"
+                    className="w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[10rem]"
                   />
                 </div>
                 <div className="">
                   <img
                     src={retail}
                     alt=""
-                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem]"
+                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem] xl:w-[18rem] xl:max-w-[18rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -55,7 +63,7 @@ const OurSolution = () => {
                   <img
                     src={DottedLineSm}
                     alt=""
-                    className="w-[7rem] md:w-[10rem] lg:w-[15rem]"
+                    className="w-[7rem] md:w-[10rem] lg:w-[15rem] xl:w-[20rem]"
                   />
                   {/* <span class="dotted-gradient">
                     dotted
@@ -67,14 +75,14 @@ const OurSolution = () => {
                 <img
                   src={manufacture}
                   alt=""
-                  className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem]"
+                  className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem]  lg:w-[12rem] lg:max-w-[12rem] xl:w-[18rem] xl:max-w-[18rem]"
                   // className="max-w-full h-auto"
                 />
               </div>
               {/*  */}
               {/* 3 */}
               {/* <div className="w-full  flex justify-center items-center ml-[4rem] xl:ml-[2rem] absolute top-[11.5rem] left-[1rem] lg:top-[10rem]"> */}
-              <div className="h-[7rem]   flex  items-center  absolute top-0 bottom-0 right-0 left-0 mt-[11.5rem] md:mt-[13.5rem] lg:mt-[20.5rem]  ml-[5.5rem] md:ml-[3rem] lg:ml-[7rem]">
+              <div className="h-[7rem]   flex  items-center  absolute top-0 bottom-0 right-0 left-0 mt-[11.5rem] md:mt-[13.5rem] lg:mt-[20.5rem]  ml-[6.5rem] md:ml-[3rem] lg:ml-[7rem]">
                 <div className="">
                   <img
                     src={DottedLineSm2}
@@ -86,7 +94,7 @@ const OurSolution = () => {
                   <img
                     src={healthcare}
                     alt=""
-                    className="object-cover   w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem]"
+                    className="object-cover   w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem] xl:w-[18rem] xl:max-w-[18rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -106,7 +114,7 @@ const OurSolution = () => {
                   <img
                     src={military}
                     alt=""
-                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem]"
+                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem] xl:w-[18rem] xl:max-w-[18rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -128,7 +136,7 @@ const OurSolution = () => {
                     src={banking}
                     alt=""
                     // className="object-cover w-[7rem] max-w-[4rem]"
-                    className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem]"
+                    className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem] xl:w-[18rem] xl:max-w-[18rem]"
                   />
                 </div>
               </div>
@@ -136,16 +144,25 @@ const OurSolution = () => {
               {/*  */}
             </div>
           </div>
-          <div className=" w-full    flex-[0.1] text-white ">
+          <div className="mt-[-3rem] md:mt-0 w-full flex-[0.05]  md:flex-[0.1] text-white ml-4">
             <div className="  flex justify-between items-center ">
-              <div className="vertical flex items-center">
-                <h1 className="  uppercase tracking-[1rem] ">powers</h1>
-                <div>
-                  <img src={vline} alt="" />
+              <div className="vertical flex items-center relative">
+                <h1 className="  uppercase tracking-[1rem] lg:text-2xl ">
+                  powers
+                </h1>
+                <div className="">
+                  <img src={vline} alt="" className="object-cover max-w-md" />
                 </div>
               </div>
             </div>
-            <div>sdfds</div>
+          </div>
+        </div>
+        <div className="flex justify-between text-white mx-[1rem] md:mx-[3rem]  top-[112rem]   absolute top:0left-0 right-0 bottom-0">
+          <div className=" w-full"></div>
+          <div className=" ">
+            <div className="w-full">
+              <h1 className="text-right lg:text-2xl">MULTIPLE INDUSTRIES</h1>
+            </div>
           </div>
         </div>
       </div>

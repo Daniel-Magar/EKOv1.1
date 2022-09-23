@@ -397,6 +397,7 @@ body {
 
 .vertical {
   writing-mode: vertical-rl;
+  margin: 0 auto;
 }
 /* .dotted-gradient {
   border-top: 4px #333 dotted;
