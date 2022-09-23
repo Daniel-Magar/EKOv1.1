@@ -398,3 +398,14 @@ body {
 .vertical {
   writing-mode: vertical-rl;
 }
+/* .dotted-gradient {
+  border-top: 4px #333 dotted;
+  background-image: linear-gradient(
+    to right,
+    #333 40%,
+    rgba(230, 227, 227, 0) 100%
+  );
+  background-position: top;
+  background-size: 3px 1px;
+  background-repeat: repeat-x;
+} */
