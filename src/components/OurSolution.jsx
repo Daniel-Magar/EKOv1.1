@@ -13,7 +13,7 @@ import DottedLineSm2 from "../img/DottedLineSm2.png";
 
 const OurSolution = () => {
   return (
-    <section className="py-[2rem] lg:py-10 ">
+    <section className="py-[2rem] lg:py-10 xl:py-[13rem]">
       <div className="bg-main-black">
         <div className=" flex justify-between items-end text-white mr-6 md:mr-[2rem] lg:mr-[4rem] xl:mr-[4.5rem]">
           <div className="text-white "></div>
@@ -23,7 +23,7 @@ const OurSolution = () => {
             </h1>
           </div>
         </div>
-        <div className="mr-7 md:mr-2 mt-[3rem] md:mt-[1rem] flex justify-center items-start text-left lg:gap-1 xl:gap-2">
+        <div className=" mr-7 md:mr-2 mt-[3rem] md:mt-[1rem] flex justify-center items-start text-left lg:gap-1 xl:gap-2">
           <div className=" flex-1 md:flex-1   text-white relative  ">
             <div className="inline-block    ml-[-7rem] md:ml-0 lg:ml-0 xl:ml-0 overflow-hidden">
               <img
@@ -34,7 +34,7 @@ const OurSolution = () => {
             </div>
           </div>
 
-          <div className=" mt-[-4rem]  left-[2rem]  md:mt-[-2rem] xl:mt-[2rem] md:left-[16rem]  h-screen w-[75%] md:w-[56%] lg:w-45% xl:w-[56%] 2xl:w-[56%]  md:min-h-fit lg:min-h-fit  lg:ml-[5rem] xl:ml-[15rem] text-white absolute z-1 right-0 ">
+          <div className=" mt-[-4rem]  left-[2rem]  md:mt-[-2rem] xl:mt-[1rem] md:left-[16rem]  h-screen w-[75%] md:w-[56%] lg:w-45% xl:w-[56%] 2xl:w-[56%]  md:min-h-fit lg:min-h-fit  lg:ml-[5rem] xl:ml-[15rem] text-white absolute z-1 right-0 ">
             <div className="top-[2rem] md:top-[1rem] lg:top-[3rem] flex flex-col justify-start items-start relative">
               {/* 1 */}
               {/* <div className=" flex justify-center items-center  ml-[0.5rem] top-[0.9rem] absolute bottom-0 right-0 left-0"> */}
@@ -46,13 +46,13 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"
                   /> */}
                   <div className="bg-bright-blue w-2 h-2 rounded "></div>
-                  <div className="line w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
+                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
                 </div>
                 <div className="">
                   <img
                     src={retail}
                     alt=""
-                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[15rem] xl:max-w-[15rem]"
+                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -68,13 +68,13 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[15rem] xl:w-[25rem]"
                   /> */}
                   <div className="bg-bright-blue w-2 h-2 rounded "></div>
-                  <div className="line w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
+                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
                 </div>
                 <div></div>
                 <img
                   src={manufacture}
                   alt=""
-                  className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem]  lg:w-[12rem] lg:max-w-[12rem] xl:w-[15rem] xl:max-w-[15rem]"
+                  className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem]  lg:w-[12rem] lg:max-w-[12rem] xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                   // className="max-w-full h-auto"
                 />
               </div>
@@ -89,13 +89,13 @@ const OurSolution = () => {
                     className="w-[1rem] md:w-[2rem]"
                   /> */}
                   <div className="bg-bright-blue w-2 h-2 rounded "></div>
-                  <div className="line w-[1rem] md:w-[2rem]"></div>
+                  <div className="dashline w-[1rem] md:w-[2rem]"></div>
                 </div>
                 <div>
                   <img
                     src={healthcare}
                     alt=""
-                    className="object-cover   w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[15rem] xl:max-w-[15rem]"
+                    className="object-cover   w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -111,13 +111,13 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[15rem] xl:w-[25rem]"
                   /> */}
                   <div className="bg-bright-blue w-2 h-2 rounded "></div>
-                  <div className="line w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
+                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
                 </div>
                 <div className="">
                   <img
                     src={military}
                     alt=""
-                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[15rem] xl:max-w-[15rem]"
+                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem] xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -134,14 +134,14 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"
                   /> */}
                   <div className="bg-bright-blue w-2 h-2 rounded "></div>
-                  <div className="line w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
+                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
                 </div>
                 <div className="">
                   <img
                     src={banking}
                     alt=""
                     // className="object-cover w-[7rem] max-w-[4rem]"
-                    className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[15rem] xl:max-w-[15rem]"
+                    className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                   />
                 </div>
               </div>
@@ -163,16 +163,17 @@ const OurSolution = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between text-white mx-[1rem] md:mx-[3rem] md:mt-[0rem] lg:mt-[0rem] xl:mt-[-10rem] mr-6 md:mr-[2rem] lg:mr-[4rem] xl:mr-[4.5rem]">
+        <div className=" flex justify-between  text-white mx-[1rem] md:mx-[3rem] md:mt-[0rem] lg:mt-[0rem] xl:mt-[-10rem] mr-6 md:mr-[2rem] lg:mr-[4rem] xl:mr-[4.5rem]">
           <div className=" w-full"></div>
-          <div className=" ">
+          <div className="z-[999] ">
             <div className="w-full">
-              <h1 className="text-right lg:text-4xl xl:text-5xl">
+              <h1 className="text-right md:text-3xl lg:text-4xl xl:text-5xl z-[999]">
                 MULTIPLE INDUSTRIES
               </h1>
             </div>
           </div>
         </div>
+        {/* <div className="text-white">1</div> */}
       </div>
     </section>
   );

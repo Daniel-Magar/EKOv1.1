@@ -66,18 +66,18 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-black w-full ">
+    <section className="bg-black w-full  h-screen">
       <div className="relative">
         {/* Mobile Screen */}
-        <div className="flex flex-col gap-5 lg:hidden md:hidden ">
-          <div className="mx-[2rem]">
+        <div className="flex flex-col gap-5 lg:hidden md:hidden">
+          <div className="mx-[2rem] ">
             <div className="flex items-center justify-center text-center md:justify-start md:text-left lg:justify-start lg:text-left">
               <h1 className="uppercase text-white lg:text-[1rem] xl:text-[1rem]">
                 eko solutions powers
               </h1>
             </div>
             <div className="flex items-center justify-center md:justify-start lg:justify-start">
-              <h1 className="text-bright-blue flex text-center md:text-left lg:text-left items-center justify-center text-[2rem] lg:text-[4rem] xl:text-[6rem] font-bold">
+              <h1 className="text-bright-blue flex text-center md:text-left lg:text-left items-center justify-center text-[2rem] lg:text-5xl xl:text-6xl font-bold">
                 your marketing <span className="text-white ">.</span>
               </h1>
             </div>
@@ -358,7 +358,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
