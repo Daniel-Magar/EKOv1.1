@@ -399,14 +399,18 @@ body {
   writing-mode: vertical-rl;
   margin: 0 auto;
 }
-/* .dotted-gradient {
-  border-top: 4px #333 dotted;
-  background-image: linear-gradient(
+/* Dash Lines */
+.line {
+  /* border: 1px solid white; */
+  margin: 5px 0;
+  height: 2px;
+
+  background: repeating-linear-gradient(
     to right,
-    #333 40%,
-    rgba(230, 227, 227, 0) 100%
+    transparent,
+    transparent 10px,
+    #0074e5 10px,
+    #0074e5 20px
   );
-  background-position: top;
-  background-size: 3px 1px;
-  background-repeat: repeat-x;
-} */
+  /*10px transparent then 10px black -> repeat this!*/
+}
