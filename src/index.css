@@ -414,3 +414,62 @@ body {
   );
   /*10px transparent then 10px black -> repeat this!*/
 }
+
+/* .bridge {
+  background-image: url("../src/img/bridge-bg.png");
+  width: 300px;
+  height: 100px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+} */
+
+/* .bg-hero {
+  background-image: url(../src/img/bridge-bg.png);
+  overflow: hidden;
+  margin-left: -10rem;
+  width: 900px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.gradient-bg > * {
+  background: radial-gradient(
+    81.46% 192.43% at 41.63% 47.67%,
+    rgba(27, 43, 105, 0.43) 0%,
+    rgba(27, 43, 105, 0) 100%
+  );
+
+  filter: blur(20px);
+
+  border-radius: 8px;
+}
+
+.noblur {
+  filter: blur(0);
+  margin-top: 3rem;
+}
+
+#parent_div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+#background {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+      81.46% 192.43% at 41.63% 47.67%,
+      rgba(27, 43, 105, 0.43) 0%,
+      rgba(27, 43, 105, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  filter: blur(20px);
+  border-radius: 8px;
+  z-index: -1;
+}

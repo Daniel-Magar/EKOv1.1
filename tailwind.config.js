@@ -9,7 +9,7 @@ module.exports = {
         "fade-gray": "rgba(255, 255, 255, 0.7)",
       },
       backgroundImage: {
-        "hero-gif": "url('../src/img/eko1.gif')",
+        "hero-pattern": "url('../src/img/bridge-bg.png)",
       },
     },
   },

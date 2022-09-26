@@ -1,5 +1,6 @@
 import "./App.css";
 import Application from "./components/Application";
+import Bridge from "./components/Bridge";
 import Navbar from "./components/common/Navbar";
 import Hero from "./components/Hero";
 import OneSource from "./components/OneSource";
@@ -13,6 +14,7 @@ function App() {
       <Application />
       <OurSolution />
       <OneSource />
+      <Bridge />
     </div>
   );
 }
