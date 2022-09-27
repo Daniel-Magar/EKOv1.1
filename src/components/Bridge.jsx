@@ -38,7 +38,7 @@ const Bridge = () => {
                     <img src={ai2} alt="" className="object-fill " />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-30%]  text-[12px] pt-2">
+                        <div className="absolute top-[50%] left-30%]  text-[12px] lg:text-[1rem] xl:text-[1.5rem] pt-2">
                           <h1 className="text-center  font-semibold text-black">
                             AI & ML
                           </h1>
@@ -46,7 +46,7 @@ const Bridge = () => {
                           <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           <div className="  text-black flex justify-center items-center pt-2">
                             <div>
-                              <button className="text-[12px] mt-2">
+                              <button className="text-[12px] mt-2 lg:text-[1rem] xl:text-[1.5rem]">
                                 View More
                               </button>
                               <div className="w-full   flex gap-1 ">
@@ -70,7 +70,7 @@ const Bridge = () => {
                     />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-30%]  text-[12px] pt-2">
+                        <div className="absolute top-[50%] left-30%]  text-[12px] lg:text-[1rem] xl:text-[1.5rem] pt-2">
                           <h1 className="text-center font-semibold">
                             Big Data
                           </h1>
@@ -78,7 +78,7 @@ const Bridge = () => {
                           <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           <div className="  text-black flex justify-center items-center pt-2">
                             <div>
-                              <button className="text-[12px] mt-2">
+                              <button className="text-[12px] mt-2 lg:text-[1rem] xl:text-[1.5rem]">
                                 View More
                               </button>
                               <div className="w-full   flex gap-1 ">
@@ -98,7 +98,7 @@ const Bridge = () => {
                     <img src={ai2} alt="" className="object-fill " />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-30%] text-[12px] pt-2">
+                        <div className="absolute top-[50%] left-30%] text-[12px] lg:text-[1rem] xl:text-[1.5rem] pt-2">
                           <h1 className="text-center  font-semibold text-black">
                             AI & ML
                           </h1>
@@ -106,7 +106,7 @@ const Bridge = () => {
                           <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           <div className="  text-black flex justify-center items-center pt-2">
                             <div>
-                              <button className="text-[12px] mt-2">
+                              <button className="text-[12px] mt-2 lg:text-[1rem] xl:text-[1.5rem]">
                                 View More
                               </button>
                               <div className="w-full   flex gap-1 ">
@@ -130,7 +130,7 @@ const Bridge = () => {
                     />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-30%] text-[12px] pt-2">
+                        <div className="absolute top-[50%] left-30%] text-[12px] lg:text-[1rem] xl:text-[1.5rem] pt-2">
                           <h1 className="text-center font-semibold">
                             Big Data
                           </h1>
@@ -138,7 +138,7 @@ const Bridge = () => {
                           <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           <div className="  text-black flex justify-center items-center pt-2">
                             <div>
-                              <button className="text-[12px] mt-2">
+                              <button className="text-[12px] lg:text-[1rem] xl:text-[1.5rem] mt-2">
                                 View More
                               </button>
                               <div className="w-full   flex gap-1 ">
