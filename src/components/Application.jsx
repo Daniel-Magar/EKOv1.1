@@ -67,16 +67,6 @@ const Application = () => {
             </div>
           </div>
         </div>
-        {/* <div className="flex justify-center items-center pb-10 lg:hidden bg-white">
-          <div>
-            <button className="text-xl">View More</button>
-            <div className="w-full   flex gap-1 ">
-              <div className="border border-bright-blue w-[80%]"></div>
-              <div className=" "></div>
-              <div className="border border-bright-blue w-[10%]"></div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </section>
   );

@@ -473,3 +473,11 @@ body {
   border-radius: 8px;
   z-index: -1;
 }
+.aibg {
+  background-image: url("/src/img/ai2.png");
+  background-size: cover;
+  /* object-fit: contain; */
+  background-repeat: no-repeat;
+  background-color: white;
+  /* overflow: auto; */
+}
