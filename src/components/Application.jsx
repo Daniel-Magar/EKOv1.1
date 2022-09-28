@@ -1,7 +1,6 @@
 import React from "react";
 import AIVid from "../img/AIVid.png";
 
-
 const Application = () => {
   return (
     <section>
@@ -15,7 +14,7 @@ const Application = () => {
               <img
                 src={AIVid}
                 alt="ArtificialIntelligence"
-                className="hidden md:hidden lg:flex  z-[1] flex-grow-0 md:max-w-[40rem] lg:max-w-[45rem] xl:w-max-w-[80rem] 2xl:max-w-[100rem] "
+                className="hidden md:hidden lg:flex  z-[1] flex-grow-0 md:max-w-[40rem] lg:max-w-[45rem] xl:w-max-w-[80rem] 2xl:max-w-[64rem] "
               />
               <img
                 src={AIVid}
