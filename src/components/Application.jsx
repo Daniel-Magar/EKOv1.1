@@ -1,5 +1,6 @@
 import React from "react";
-import AI from "../img/AI.png";
+import AIVid from "../img/AIVid.png";
+
 
 const Application = () => {
   return (
@@ -12,12 +13,12 @@ const Application = () => {
             </h1>
             <div className=" flex justify-end lg:absolute lg:top-[-2rem] xl:top-[-2rem] 2xl:top-[-2rem] right-0">
               <img
-                src={AI}
+                src={AIVid}
                 alt="ArtificialIntelligence"
                 className="hidden md:hidden lg:flex  z-[1] flex-grow-0 md:max-w-[40rem] lg:max-w-[45rem] xl:w-max-w-[80rem] 2xl:max-w-[100rem] "
               />
               <img
-                src={AI}
+                src={AIVid}
                 alt="ArtificialIntelligence"
                 className="lg:hidden flex"
               />

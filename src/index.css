@@ -1,13 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: "Akrobat";
+  src: local("AkrobatRegular"),
+   url("./fonts/Akrobat-Regular.ttf") format("truetype");
+  font-weight: regular;
+  }
+
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+  scroll-behavior: smooth;
+  font-family: Akrobat;
+
+
+ }
 body {
   margin: 0;
   background-color: black;
@@ -177,13 +190,13 @@ body {
   display: none;
 }
 
-.aiimg {
+/* .aiimg {
   width: 100%;
   height: 100%;
 
   background-image: url("../src/img/AI.png");
   background-repeat: no-repeat;
-}
+} */
 
 .vid-container {
   overflow: hidden;
@@ -200,17 +213,15 @@ body {
   overflow: hidden;
   position: relative;
 }
-.image {
+/* .image {
   background: url("../src/img/AI.png");
   position: absolute;
   top: -30px;
   left: -30px;
   right: -30px;
   bottom: -30px;
-  /* -webkit-transform: skew(-20deg);
-  -moz-transform: skew(-20deg);
-  -o-transform: skew(-20deg); */
-}
+
+} */
 
 /* .banner {
   position: relative;
@@ -481,3 +492,13 @@ body {
   background-color: white;
   /* overflow: auto; */
 }
+
+/* .cap-dashlines{
+  outline:dashed #0074e5  3px;
+  border-left:solid black  2px;
+  outline-offset:-14px;
+  height: 300px;
+  border-top: none;
+
+
+} */
