@@ -15,8 +15,15 @@ function App() {
       <Application />
       <OurSolution />
       <OneSource />
-      <Bridge />
-      <Capabilities />
+      <div className="">
+        <div id="parent_div">
+          <div id="background"></div>
+          <div id="textarea h-screen }">
+            <Bridge />
+            <Capabilities />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -8,7 +8,7 @@ import bigdata2 from "../img/bigdata2.png";
 
 const Bridge = () => {
   return (
-    <section className="h-screen xl:mt-[6rem]">
+    <section className="xl:mt-[3rem] md:h-auto">
       <div className="">
         <div id="parent_div">
           <div id="background"></div>
