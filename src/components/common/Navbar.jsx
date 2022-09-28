@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import navlines from "../../img/navlines.png";
+import menuline from "../../img/menuline.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,24 +61,38 @@ const Navbar = () => {
         <div className="flex justify-center items-center gap-[6rem] lg:gap-[5rem] lg:h-[5rem]">
           <div>
             <div className="hidden  lg:flex lg:gap-[3rem]  xl:gap-[5rem] lg:text-[1.5rem]">
-              <a href="#" className=" ">
+              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75">
                 Industries
               </a>
-              <a href="#" className=" ">
+              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75">
                 Capabilities
               </a>
-              <a href="#" className="">
+              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75">
                 Expertise
               </a>
-              <a href="#" className="">
+              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75 ">
                 About Us
               </a>
             </div>
             <div className="hidden lg:flex lg:gap-[5rem] items-center justify-center ">
-              <div className="text-white">.</div>
-              <div className="text-white">.</div>
-              <div className="text-white">.</div>
-              <div className="text-white">.</div>
+              <div className="text-white flex justify-center items-center">
+                {/* <img src="" alt="" /> */}
+                <div className="">
+                  <p className="bg-bright-blue w-1 h-1 rounded"></p>
+                </div>
+                <div className="">
+                  <p className="border border-bright-blue border-b-0 border-l-0 border-r-0 w-[20rem] h-1"></p>
+                </div>
+              </div>
+              <div className="text-white">
+              <img src="" alt="" />
+              </div>
+              <div className="text-white">
+              <img src="" alt="" />
+              </div>
+              <div className="text-white">
+              <img src="" alt="" />
+              </div>
             </div>
           </div>
 

@@ -66,7 +66,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-black w-full  h-screen">
+    <section className="bg-black w-full  h-screen lg:mb-10">
       <div className="relative">
         {/* Mobile Screen */}
         <div className="flex flex-col gap-5 lg:hidden md:hidden">
@@ -342,18 +342,19 @@ const Hero = () => {
             <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[8rem]">
               <div className="flex flex-col">
                 <div className="uppercase text-3xl">Get Started</div>
-                <div className="w-full   flex gap-3 ">
-                  <div className="border border-bright-blue w-[80%]"></div>
-                  <div className="border border-main-black w-30%"></div>
-                  <div className="border border-bright-blue w-[10%]"></div>
+                <div className="w-full cursor-pointer  flex gap-3 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                  <div className="border bg-bright-blue border-bright-blue w-[80%]"></div>
+                  <div className=" w-30%"></div>
+                  <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
                 </div>
               </div>
-              <div className="flex flex-col md:mr-[3rem] lg:mr-[3rem] xl:mr-[6rem]">
+              <div className=" flex flex-col md:mr-[3rem] lg:mr-[3rem] xl:mr-[6rem]">
                 <div className="">
                   <img src={rightUpArrow} alt="" />
                 </div>
                 <div className="py-1"></div>
               </div>
+              
             </div>
           </div>
         </div>
