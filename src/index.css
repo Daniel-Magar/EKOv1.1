@@ -442,13 +442,13 @@ body {
   margin-top: 3rem;
 }
 
-#parent_div {
+/* #parent_div {
   position: relative;
   height: 100%;
   width: 100%;
 
-  /* color: white; */
-}
+
+} */
 
 #background {
   position: absolute;

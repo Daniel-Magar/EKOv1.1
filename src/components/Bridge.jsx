@@ -9,11 +9,11 @@ import bigdata2 from "../img/bigdata2.png";
 const Bridge = () => {
   return (
     <section className="xl:mt-[3rem] h-[85%] md:h-[90%] ">
-      <div className="">
+      <div className="relative">
         <div id="parent_div">
           <div id="background"></div>
           <div id="textarea mt-[7rem]">
-            <div className="overflow-hidden relative ">
+            <div className="overflow-hidden relative pb-[9rem] md:pb-[6rem] lg:pb-[1rem]">
               <img
                 src={bgblur}
                 alt=""
