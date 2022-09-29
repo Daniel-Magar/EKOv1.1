@@ -32,7 +32,7 @@ const Bridge = () => {
                   technology to help you grow towards your business goals.
                 </p>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 w-full gap-2 mt-[3rem] lg:mt-[6rem] xl:mt-[10rem]">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 w-full gap-2 mt-[3rem] lg:mt-[6rem] xl:mt-[5rem]">
                 <div className="">
                   <div className="w-full relative h-auto">
                     <img src={ai2} alt="" className="object-fill " />

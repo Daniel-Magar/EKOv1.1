@@ -137,6 +137,7 @@ const Clients = () => {
             fraud_detection={fraud_detection}
           />
         </div>
+        <div className="text-black bg-white">Get Started</div>
       </div>
     </section>
   );
