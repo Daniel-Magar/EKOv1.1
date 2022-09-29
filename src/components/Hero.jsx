@@ -66,7 +66,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-black w-full  h-screen md:h-[80%] md:mb-[2rem] lg:mb-10">
+    <section className="bg-black w-full  h-screen md:h-screen md:mb-[2rem] lg:mb-10">
       <div className="relative">
         {/* Mobile Screen */}
         <div className="flex flex-col gap-5 lg:hidden md:hidden">

@@ -93,17 +93,17 @@ const Clients = () => {
     // position: relative;
   };
   return (
-    <section className="h-screen text-black md:mt-10 lg:mt-13 xl:mt-16 2xl:mt-0 ">
-      <div className="border bg-[#F5FEFF] h-screen border-r-0 border-l-0 border-b-0 rounded-t-[3rem]  ">
+    <section className="h-screen text-black md:mt-10 lg:mt-13 xl:mt-16 2xl:mt-0 border border-red-600">
+      <div className="border md:mt-[6rem] bg-[#F5FEFF] h-screen border-r-0 border-l-0 border-b-0 rounded-t-[3rem]  relative">
         <div className=" flex flex-col justify-center items-center mt-10">
-          <h1 className=" text-[2.3rem] md:text-[2.3rem] font-medium">
+          <h1 className=" text-[2.3rem] md:text-[2.3rem] lg:text-[3rem] font-medium">
             Always by our client’s side{" "}
           </h1>
-          <p className="w-[80%] text-[1rem] text-center">
+          <p className="w-[80%] text-[1rem] lg:text-[1.1rem] text-center">
             from manufacturing to defense our partners span all across the Globe
           </p>
         </div>
-        <div className="mt-10 md:mt-[3rem] lg:mt-[6rem]">
+        <div className=" ">
           <Carousel1
             responsive={responsive}
             Mindful={Mindful}
@@ -137,7 +137,9 @@ const Clients = () => {
             fraud_detection={fraud_detection}
           />
         </div>
-        <div className="text-black bg-white">Get Started</div>
+        <div className="text-black bg-white flex justify-center items-center">
+          <a href="#">Get Started</a>
+        </div>
       </div>
     </section>
   );

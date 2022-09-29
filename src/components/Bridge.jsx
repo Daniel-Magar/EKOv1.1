@@ -8,11 +8,11 @@ import bigdata2 from "../img/bigdata2.png";
 
 const Bridge = () => {
   return (
-    <section className="xl:mt-[3rem] h-[80%] md:h-screen">
+    <section className="xl:mt-[3rem] h-[85%] md:h-[90%] ">
       <div className="">
         <div id="parent_div">
           <div id="background"></div>
-          <div id="textarea">
+          <div id="textarea mt-[7rem]">
             <div className="overflow-hidden relative ">
               <img
                 src={bgblur}
@@ -20,7 +20,7 @@ const Bridge = () => {
                 className=" object-contain ml-[-11rem] lg:ml-0 lg:mr-0 mr-[15rem] max-w-[55rem] md:max-w-[70rem] lg:max-w-[80rem] xl:max-w-full overflow-hidden"
               />
             </div>
-            <div className=" mx-6 md:mx-16 absolute left-0 right-0 bottom-0 top-0">
+            <div className=" mx-6 md:mx-16 absolute left-0 right-0 bottom-0 top-0 text-white">
               <div className="flex flex-col items-center justify-center text-center md:mx-6 mt-[2rem]">
                 <h1 className="capitalize text-3xl xl:text-[3rem]">
                   We help you{" "}

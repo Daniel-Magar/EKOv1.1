@@ -25,16 +25,12 @@ const Carousel2 = (props) => {
     position: "absolute",
   };
   const CustomRight = ({ onClick }) => (
-    <button
-      className="arrow right  z-[999]"
-      onClick={onClick}
-      style={arrowStyle2}
-    >
+    <button className="arrow right " onClick={onClick} style={arrowStyle2}>
       <img src={rarrow} alt="" className=" max-w-[2rem] " />
     </button>
   );
   const CustomLeft = ({ onClick }) => (
-    <button className="arrow left z-[999]" onClick={onClick} style={arrowStyle}>
+    <button className="arrow left" onClick={onClick} style={arrowStyle}>
       <img src={larrow} alt="" className="max-w-[2rem] " />
     </button>
   );
@@ -60,7 +56,7 @@ const Carousel2 = (props) => {
         // autoPlay={true}
       >
         <div className="md:mx-5">
-          <div className=" w-full lg:w-[full] lg:h-auto flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] h-[25rem] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[26rem] md:h-[32rem] lg:w-[full] lg:h-[26rem] flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             {" "}
             <div>
               <img src={props.fraud_detection} alt="Fraud Detection" />
@@ -83,7 +79,7 @@ const Carousel2 = (props) => {
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full lg:w-[full] lg:h-auto flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] h-[25rem] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[26rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF]  md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.customer_churn} alt="" />
             </div>
@@ -105,7 +101,7 @@ const Carousel2 = (props) => {
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full lg:w-[full] lg:h-auto flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] h-[25rem] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[26rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.credit_risk} alt="" />
             </div>
