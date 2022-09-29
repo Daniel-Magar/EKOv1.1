@@ -13,7 +13,7 @@ const Capabilities = () => {
   return (
     <section className="h-screen md:h-screen my-[0rem] lg:my-0 md:mt-[30rem] lg:mt-2 relative">
       <section className="mx-5 my-[10rem] md:my-[5rem] h-[45%] md:h-screen lg:h-[85%] xl:h-[100%]   2xl:h-[85%]  md:pt-0   md:mx-[2rem] xl:mx-[6rem] md:border  md:rounded md:border-bright-blue">
-        <div id="parent_div " className="h-screen">
+        <div id="parent_div " className="mt-[12rem] md:mt-0">
           <div id="background"></div>
           <div id="textarea border">
             <div className="md:mt-[3rem] lg:mt-[5rem] flex md:flex-col lg:flex-col  justify-center items-center text-white mx-6 md:mx-0  gap-5 md:gap-1">
