@@ -11,10 +11,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('../src/img/bridge-bg.png)",
       },
-      // fontFamily: {
-      //   poppins: ["Poppins", "sans-serif"],
-      //   akrobat: ["akrobat", "regular"],
-      // },
+      fontFamily: {
+        gillsans: ["Gill Sans", "Gill Sans"],
+      },
     },
   },
   plugins: [],

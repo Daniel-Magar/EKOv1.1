@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import navlines from "../../img/navlines.png";
-import menuline from "../../img/menuline.png"
+import menuline from "../../img/menuline.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -60,17 +60,29 @@ const Navbar = () => {
         </div> */}
         <div className="flex justify-center items-center gap-[6rem] lg:gap-[5rem] lg:h-[5rem]">
           <div>
-            <div className="hidden  lg:flex lg:gap-[3rem]  xl:gap-[5rem] lg:text-[1.5rem]">
-              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75">
+            <div className="hidden md:flex md:gap-[2rem]  lg:flex lg:gap-[3rem]  xl:gap-[5rem] lg:text-[1.5rem]">
+              <a
+                href="#"
+                className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75"
+              >
                 Industries
               </a>
-              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75">
+              <a
+                href="#"
+                className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75"
+              >
                 Capabilities
               </a>
-              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75">
+              <a
+                href="#"
+                className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75"
+              >
                 Expertise
               </a>
-              <a href="#" className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75 ">
+              <a
+                href="#"
+                className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75 "
+              >
                 About Us
               </a>
             </div>
@@ -85,13 +97,13 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="text-white">
-              <img src="" alt="" />
+                <img src="" alt="" />
               </div>
               <div className="text-white">
-              <img src="" alt="" />
+                <img src="" alt="" />
               </div>
               <div className="text-white">
-              <img src="" alt="" />
+                <img src="" alt="" />
               </div>
             </div>
           </div>

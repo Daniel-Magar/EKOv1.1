@@ -8,7 +8,7 @@ import bigdata2 from "../img/bigdata2.png";
 
 const Bridge = () => {
   return (
-    <section className="xl:mt-[3rem] md:h-auto">
+    <section className="xl:mt-[3rem] h-[80%] md:h-screen">
       <div className="">
         <div id="parent_div">
           <div id="background"></div>
@@ -128,7 +128,7 @@ const Bridge = () => {
                       alt=""
                       className="object-fill bg-center"
                     />
-                    <div className="text-black  ">
+                    <div className="text-black ">
                       <div className="flex flex-col justify-center items-center text-center">
                         <div className="absolute top-[50%] left-30%] text-[12px] lg:text-[1rem] xl:text-[1.5rem] pt-2">
                           <h1 className="text-center font-semibold">

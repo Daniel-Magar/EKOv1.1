@@ -449,7 +449,6 @@ body {
 
 #background {
   position: absolute;
-
   top: 0;
   left: 0;
   right: 0;
@@ -532,4 +531,78 @@ body {
   -webkit-filter: blur(10px);
   filter: blur(10px);
   content: "";
+}
+.mygillsans {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+
+.arrow {
+  position: absolute;
+  top: 75%;
+}
+
+.right {
+  width: 0px;
+  right: 0;
+  right: calc(-4% + 1px);
+}
+
+.left {
+  width: 0px;
+  left: 0;
+  left: calc(4% + 1px);
+}
+.left:after {
+  content: "";
+  position: absolute;
+  border-right: none !important;
+  top: -25px;
+  bottom: -10px;
+  left: 0;
+  right: -10px;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+}
+.react-multi-carousel-list {
+  position: unset !important;
+}
+
+/* Media query for carousel arrow */
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .arrow {
+    position: absolute;
+    top: 90%;
+  }
+  .right {
+    /* width: 2px; */
+    right: 0;
+    right: calc(-4% + 1px);
+  }
+
+  .left {
+    left: 0;
+    left: calc(4% + 1px);
+  }
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
 }
