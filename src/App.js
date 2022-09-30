@@ -18,7 +18,7 @@ function App() {
       <OurSolution />
       <OneSource />
 
-      {/* <div className="">
+      <div className="">
         <div id="parent_div">
           <div id="background"></div>
           <div id="textarea">
@@ -26,7 +26,9 @@ function App() {
             <Capabilities />
           </div>
         </div>
-      </div> */}
+      </div>
+      {/* <Bridge />
+      <Capabilities /> */}
 
       <Clients />
 

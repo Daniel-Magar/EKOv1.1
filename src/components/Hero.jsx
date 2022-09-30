@@ -204,17 +204,20 @@ const Hero = () => {
         {/* <div className="  hidden lg:gap-5 xl:gap-8 md:flex md:justify-between md:mx-[3rem] lg:flex lg:justify-between mx-[3rem] lg:mx-[3rem] xl:mx-[6rem]"> */}
         <div className="  hidden lg:gap-5 xl:gap-8 md:flex md:justify-between  lg:flex lg:justify-between">
           <div className="flex flex-col gap-5   flex-1">
-            <div className="lg:py-[3rem] xl:py-[6rem]">
+            <div className="lg:py-[2rem] xl:py-[6rem]">
               <div className=" mx-[3rem] md:mx-[3rem] lg:mx-[3rem] xl:mx-[6rem]">
                 <div className="flex items-center justify-center text-center md:justify-start md:text-left lg:justify-start lg:text-left">
                   <h1 className="uppercase text-white lg:text-[1rem] xl:text-[2rem]">
                     eko solutions powers
                   </h1>
                 </div>
-                <div className="flex items-center justify-center md:justify-start lg:justify-start">
-                  <h1 className="text-bright-blue flex text-center md:text-left lg:text-left items-center justify-center text-[2rem] lg:text-[3rem] xl:text-[3.5rem] font-bold">
-                    your marketing.
+                <div className="flex items-end  justify-center md:justify-start lg:justify-start gap-3">
+                  <h1 className=" text-bright-blue 2xl:tracking-[0.1em] flex text-center md:text-left lg:text-left items-center justify-center text-[2rem] lg:text-[3rem] xl:text-[4.2rem] 2xl:text-[6rem] font-bold">
+                    your marketing
                   </h1>
+                  <div className="">
+                    <p className="w-2 h-2 bg-white rounded md:mt-[-1rem] lg:mt-[-1.5rem] xl:mt-[-2rem] 2xl:mt-[-3rem]"></p>
+                  </div>
                 </div>
               </div>
 
@@ -330,16 +333,16 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-full items-start justify-start flex-1 z-[1]   grow">
+          <div className="flex flex-col w-full items-start justify-center flex-[0.9] ">
             {/* <div className="w-full aspect-w-16 aspect-h-9"> */}
-            <div className="  w-full flex justify-start items-center mt-0">
+            <div className="  w-full flex justify-start items-center mt-[-4rem]  ">
               <img
                 src={eko1}
                 alt="hero"
-                className=" object-contain w-full border-none"
+                className=" object-contain w-full border-none scale-[1.2]"
               />
             </div>
-            <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[8rem]">
+            <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[0rem]">
               <div className="flex flex-col">
                 <div className="uppercase text-3xl">Get Started</div>
                 <div className="w-full cursor-pointer  flex gap-3 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">

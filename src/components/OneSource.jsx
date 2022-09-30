@@ -8,18 +8,17 @@ const OneSource = () => {
         <div className=" flex-1  relative lg:ml-[6rem]">
           <div className="flex justify-start items-end  uppercase gap-5">
             <div className=" ">
-              <h1 className="">
-                <span className="text-4xl md:text-5xl lg:text-8xl text-bright-blue font-semibold mr-2">
-                  one
-                </span>{" "}
-                <span className="md:text-2xl lg:text-5xl">source</span>
-              </h1>
+              <span className="text-4xl md:text-5xl lg:text-8xl text-bright-blue font-semibold mr-2 text-transparent bg-clip-text bg-gradient-to-r from-[#0085FE] to-[#29E5FF]">
+                one
+              </span>{" "}
+              <span className="md:text-2xl lg:text-5xl">source</span>
             </div>
           </div>
+
           <div className="flex justify-start items-end  uppercase gap-5">
             <div className=" ">
               <h1 className="">
-                <span className="text-4xl md:text-5xl lg:text-8xl text-bright-blue font-semibold mr-2">
+                <span className="text-4xl md:text-5xl lg:text-8xl text-bright-blue font-semibold mr-2 text-transparent bg-clip-text bg-gradient-to-r from-[#0085FE] to-[#29E5FF]">
                   endless
                 </span>
                 <span className="md:text-2xl lg:text-5xl">solutions</span>

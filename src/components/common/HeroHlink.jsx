@@ -4,7 +4,7 @@ import React from "react";
 export function Button1() {
   return (
     <div className="mytrans">
-      <p className="text-fade-gray text-[1rem] lg:text-[1.5rem] xl:text-[1.5rem] p-3">
+      <p className="text-fade-gray text-[1.2rem] lg:text-[1.5rem] xl:text-[1.5rem] 2xl:text-[2rem]  p-3">
         We are a firm specialized in &nbsp;
         <span className="text-white font-bold">Machine Learning, AI</span>
         &nbsp; and &nbsp;
@@ -19,7 +19,7 @@ export function Button1() {
 export function Button2() {
   return (
     <div className="w-full">
-      <p className="text-fade-gray text-[1rem] lg:text-[1.5rem] xl:text-[1.5rem] p-3 ">
+      <p className="text-fade-gray text-[1.2rem] lg:text-[1.5rem] xl:text-[1.5rem] 2xl:text-[2rem] p-3 ">
         We deliver &nbsp;
         <span className="text-white font-bold">values and ethics</span>
         &nbsp; we understand &nbsp;
@@ -33,7 +33,7 @@ export function Button2() {
 export function Button3() {
   return (
     <div className="w-full">
-      <p className="text-fade-gray text-[1rem] lg:text-[1.5rem] xl:text-[1.5rem] p-3 ">
+      <p className="text-fade-gray text-[1.2rem] lg:text-[1.5rem] xl:text-[1.5rem] 2xl:text-[2rem]  p-3 ">
         Lorem ipsum dolar &nbsp;
         <span className="text-white font-bold">text text text</span>
         &nbsp; we understand &nbsp;

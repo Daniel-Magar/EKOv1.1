@@ -9,9 +9,9 @@ const Navbar = () => {
     console.log(isOpen);
   }, [isOpen]);
   return (
-    <nav className="bg-main-black">
-      <div className="mx-[2rem]  flex text-white justify-between items-center xl:pt-18  lg:pt-[8rem] lg:mx-[3rem] xl:mx-[6rem] ">
-        <div className=" lg:h-[5rem] ">
+    <nav className="bg-main-black navbar">
+      <div className="mx-[2rem] flex text-white justify-between items-center xl:pt-5  lg:pt-5 lg:mx-[3rem] xl:mx-[6rem] ">
+        <div className="  ">
           <img
             src="logo1.png"
             alt=""
@@ -60,7 +60,7 @@ const Navbar = () => {
         </div> */}
         <div className="flex justify-center items-center gap-[6rem] lg:gap-[5rem] lg:h-[5rem]">
           <div>
-            <div className="hidden md:flex md:gap-[2rem]  lg:flex lg:gap-[3rem]  xl:gap-[5rem] lg:text-[1.5rem]">
+            <div className="hidden md:flex md:gap-[2rem]  lg:flex lg:gap-[3rem]  xl:gap-[5rem] lg:text-[1.5rem] 2xl:text-4xl">
               <a
                 href="#"
                 className="hover:text-bright-blue hover:scale-[1.1] hover:transition-all ease-linear duration-75"
@@ -87,24 +87,7 @@ const Navbar = () => {
               </a>
             </div>
             <div className="hidden lg:flex lg:gap-[5rem] items-center justify-center ">
-              <div className="text-white flex justify-center items-center">
-                {/* <img src="" alt="" /> */}
-                <div className="">
-                  <p className="bg-bright-blue w-1 h-1 rounded"></p>
-                </div>
-                <div className="">
-                  <p className="border border-bright-blue border-b-0 border-l-0 border-r-0 w-[20rem] h-1"></p>
-                </div>
-              </div>
-              <div className="text-white">
-                <img src="" alt="" />
-              </div>
-              <div className="text-white">
-                <img src="" alt="" />
-              </div>
-              <div className="text-white">
-                <img src="" alt="" />
-              </div>
+              <div className="text-white flex justify-center items-center"></div>
             </div>
           </div>
 
