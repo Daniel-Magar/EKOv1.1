@@ -18,46 +18,7 @@ const Navbar = () => {
             className="w-[4rem] lg:w-[6rem] xl:w-[7.5rem] flex flex-grow"
           />
         </div>
-        {/* <div className="p-4 ">
-          <div className="flex justify-between items-center gap-10">
-            <div className="hidden lg:flex gap-10">
-              <a href="#">Inductries</a>
-              <a href="#">Capabilities</a>
-              <a href="#">Expertise</a>
-              <a href="#">About Us</a>
-            </div>
-
-            <div
-              className="cursor-pointer transition-all ease-out "
-              onClick={() => setIsOpen(!isOpen)}
-            >
-
-              <div className="hamburger-lines">
-                <div
-                  className={
-                    !isOpen
-                      ? "w-[28px] h-[2px] bg-white my-2 border rounded"
-                      : "w-[28px] h-[2px]  my-2 border rounded line line1"
-                  }
-                ></div>
-                <div
-                  className={
-                    !isOpen
-                      ? "w-[28px] h-[2px] bg-white my-2 border rounded"
-                      : "w-[28px] h-[2px]  my-2 border rounded line line2"
-                  }
-                ></div>
-                <div
-                  className={
-                    !isOpen
-                      ? "w-[28px] h-[2px] bg-white my-2 border rounded"
-                      : "w-[28px] h-[2px]  my-2 border rounded line line3"
-                  }
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div> */}
+      
         <div className="flex justify-center items-center gap-[6rem] lg:gap-[5rem] lg:h-[5rem]">
           <div>
             <div className="hidden md:flex md:gap-[2rem]  lg:flex lg:gap-[3rem]  xl:gap-[5rem] lg:text-[1.5rem] 2xl:text-4xl">
@@ -91,19 +52,19 @@ const Navbar = () => {
             </div>
           </div>
 
-          <nav className="z-50">
-            <div className="navbar lg:h-[5rem]">
-              <div className="container nav-container">
+          <nav className="z-50 ">
+            <div className="navbar lg:h-[5rem] ">
+              <div className="container nav-container ">
                 <input className="checkbox" type="checkbox" name="" id="" />
-                <div className="hamburger-lines">
+                <div className="hamburger-lines ">
                   <span className="line line1"></span>
                   <span className="line line2"></span>
                   <span className="line line3"></span>
                 </div>
 
-                <div className="menu-items">
-                  <ul className="bg-white z-10 w-full">
-                    <li>
+                <div className="menu-items bg-black  text-black ">
+                  <ul className="bg-black  w-full text-black ">
+                    <li className="text-white">
                       <a href="#">Industries</a>
                     </li>
                     <li>

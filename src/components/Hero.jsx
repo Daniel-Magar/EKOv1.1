@@ -339,7 +339,7 @@ const Hero = () => {
               <img
                 src={eko1}
                 alt="hero"
-                className=" object-contain w-full border-none scale-[1.2]"
+                className=" object-contain w-full border-none "
               />
             </div>
             <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[0rem]">
