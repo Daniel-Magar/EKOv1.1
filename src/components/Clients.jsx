@@ -93,8 +93,8 @@ const Clients = () => {
     // position: relative;
   };
   return (
-    <section className="h-screen text-black md:mt-10 lg:mt-13 xl:mt-16 2xl:mt-0 border border-red-600">
-      <div className="border md:mt-[6rem] bg-[#F5FEFF] h-screen border-r-0 border-l-0 border-b-0 rounded-t-[3rem]  relative">
+    <section className=" text-black md:mt-10 lg:mt-13 xl:mt-16 2xl:mt-0 border border-red-600 ">
+      <div className="border md:mt-[6rem] bg-[#F5FEFF] border-r-0 border-l-0 border-b-0 rounded-t-[3rem]  relative">
         <div className=" flex flex-col justify-center items-center mt-10">
           <h1 className=" text-[2.3rem] md:text-[2.3rem] lg:text-[3rem] font-medium">
             Always by our client’s side{" "}
@@ -103,7 +103,7 @@ const Clients = () => {
             from manufacturing to defense our partners span all across the Globe
           </p>
         </div>
-        <div className=" ">
+        <div className=" flex flex-col">
           <Carousel1
             responsive={responsive}
             Mindful={Mindful}
@@ -129,7 +129,7 @@ const Clients = () => {
             </p>
           </div>
         </div>
-        <div className="mt-12">
+        <div className="mt-12 flex flex-col">
           <Carousel2
             responsive2={responsive2}
             credit_risk={credit_risk}

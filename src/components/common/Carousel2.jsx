@@ -56,7 +56,7 @@ const Carousel2 = (props) => {
         // autoPlay={true}
       >
         <div className="md:mx-5">
-          <div className=" w-full h-[26rem] md:h-[32rem] lg:w-[full] lg:h-[26rem] flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[32rem] lg:w-[full] lg:h-[26rem] flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             {" "}
             <div>
               <img src={props.fraud_detection} alt="Fraud Detection" />
@@ -79,7 +79,7 @@ const Carousel2 = (props) => {
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full h-[26rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF]  md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF]  md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.customer_churn} alt="" />
             </div>
@@ -101,7 +101,7 @@ const Carousel2 = (props) => {
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full h-[26rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.credit_risk} alt="" />
             </div>

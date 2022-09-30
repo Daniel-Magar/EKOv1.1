@@ -8,9 +8,9 @@ import bigdata2 from "../img/bigdata2.png";
 
 const Bridge = () => {
   return (
-    <section className="xl:mt-[3rem] h-[85%] md:h-[90%] ">
-      <div className="relative">
-        <div id="parent_div">
+    <section className="xl:mt-[3rem]   md:h-[90%] border">
+      <div className="">
+        <div id="parent_div" className=" max-h-[50rem]">
           <div id="background"></div>
           <div id="textarea mt-[7rem]">
             <div className="overflow-hidden relative pb-[9rem] md:pb-[6rem] lg:pb-[1rem]">
@@ -32,9 +32,9 @@ const Bridge = () => {
                   technology to help you grow towards your business goals.
                 </p>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 w-full gap-2 mt-[3rem] lg:mt-[6rem] xl:mt-[5rem]">
+              <div className=" border py-6 min-h-fit border-yellow-400 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 w-full gap-2 mt-[3rem] lg:mt-[6rem] xl:mt-[5rem]">
                 <div className="">
-                  <div className="w-full relative h-auto">
+                  <div className="w-auto relative h-auto">
                     <img src={ai2} alt="" className="object-fill " />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">

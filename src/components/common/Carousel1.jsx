@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 const Carousel1 = (props) => {
   console.log(props);
   return (
-    <div>
+    <div className="flex flex-col">
       <Carousel
         responsive={props.responsive}
         showDots={false}

@@ -17,19 +17,19 @@ function App() {
       <Application />
       <OurSolution />
       <OneSource />
-     
-      <div className="">
+
+      {/* <div className="">
         <div id="parent_div">
           <div id="background"></div>
-          <div id="textarea h-screen }">
-          <Bridge />
+          <div id="textarea">
+            <Bridge />
             <Capabilities />
           </div>
         </div>
-      </div>
-    
-      {/* <Clients /> */}
-      <div className="md:h-[8rem] md:min-h-[20rem] lg:min-h-[25rem]"></div>
+      </div> */}
+
+      <Clients />
+
       <Footer />
     </div>
   );
