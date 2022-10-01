@@ -1,12 +1,35 @@
-import React from "react";
 import ekofooter from "../../img/ekofooter.png";
 // import * as React from "react";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_nm433gh",
+        "template_3chsh03",
+        form.current,
+        "q6yVnf9mQo16AMr9k"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
-    <section className=" bg-main-black py-3">
+    <section className=" bg-main-black py-3" id="aboutus">
       <footer className="  ">
         <div className="text-white flex flex-col lg:flex-row justify-between items-start mx-6 md:mx-10 lg:pt-6 xl:pt-8">
           <div className=" w-full py-4 lg:py-2 ">
@@ -48,7 +71,7 @@ const Footer = () => {
             </div>
             <div className="flex justify-center items-center md:justify-start md:items-start lg:justify-center lg:items-center">
               <div class="wrapper">
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                   {/* <div class="btn-box">
                     <a
                       class="btn btn-link"
@@ -60,25 +83,30 @@ const Footer = () => {
                   </div>
                   <hr class="sep" /> */}
                   <div class="group">
-                    <input type="text" required="required" />
+                    <input type="text" required="required" name="user_name" />
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Name</label>
                   </div>
                   <div class="group">
-                    <input type="text" required="required" />
+                    <input type="email" required="required" name="user_email" />
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Email</label>
                   </div>
-                  <div class="group">
+                  {/* <div class="group">
                     <input type="password" required="required" />
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Password</label>
-                  </div>
+                  </div> */}
                   <div class="group">
-                    <input type="number" required="required" />
+                    <input
+                      type="tel"
+                      required="required"
+                      name="user_number"
+                      maxLength="10"
+                    />
                     <span class="highlight"></span>
                     <span class="bar"></span>
                     <label>Number</label>
@@ -86,6 +114,7 @@ const Footer = () => {
                   <div class="group">
                     <textarea
                       type="textarea"
+                      name="message"
                       rows="5"
                       required="required"
                     ></textarea>

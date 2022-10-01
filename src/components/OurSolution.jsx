@@ -13,7 +13,7 @@ import DottedLineSm2 from "../img/DottedLineSm2.png";
 
 const OurSolution = () => {
   return (
-    <section className="py-[2rem] lg:py-10 xl:py-[13rem]">
+    <section className="py-[2rem] lg:py-10 xl:py-[13rem]" id="industries">
       <div className="bg-main-black">
         <div className=" flex justify-between items-end text-white mr-6 md:mr-[2rem] lg:mr-[4rem] xl:mr-[4.5rem]">
           <div className="text-white "></div>
@@ -165,9 +165,9 @@ const OurSolution = () => {
         </div>
         <div className=" flex justify-between  text-white mx-[1rem] md:mx-[3rem] md:mt-[0rem] lg:mt-[0rem] xl:mt-[-10rem] mr-6 md:mr-[2rem] lg:mr-[4rem] xl:mr-[4.5rem]">
           <div className=" w-full"></div>
-          <div className="z-[999] ">
+          <div className="z-[1] ">
             <div className="w-full">
-              <h1 className="text-right md:text-3xl lg:text-4xl xl:text-5xl z-[999]">
+              <h1 className="text-right md:text-3xl lg:text-4xl xl:text-5xl z-[1]">
                 MULTIPLE INDUSTRIES
               </h1>
             </div>

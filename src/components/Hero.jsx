@@ -66,7 +66,10 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-black w-full  h-screen md:h-screen md:mb-[2rem] lg:mb-10">
+    <section
+      className="bg-black w-full  h-screen md:h-screen md:mb-[2rem] lg:mb-10"
+      id="home"
+    >
       <div className="relative">
         {/* Mobile Screen */}
         <div className="flex flex-col gap-5 lg:hidden md:hidden">
@@ -85,7 +88,7 @@ const Hero = () => {
           <div>
             <div className="flex items-center justify-center flex-1">
               <img
-                src={h1}
+                src={eko1}
                 alt="hero"
                 className="object-contain w-[100%] lg:w-full"
               />
@@ -252,7 +255,7 @@ const Hero = () => {
                           <div
                             className={
                               btn1 == !true
-                                ? `transition-all duration-700 ease-in-out font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
+                                ? `transition-all ease-linear duration-[0.5s] font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
                                 : `list-none text-left text-fade-gray ml-[-2rem]`
                             }
                           ></div>
@@ -270,7 +273,7 @@ const Hero = () => {
                         <div
                           className={
                             btn2 == !true
-                              ? `transition-all duration-700 ease-in-out font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
+                              ? `transition-all ease-linear duration-[0.5s]  font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
                               : `list-none text-left text-fade-gray`
                           }
                         ></div>
@@ -287,7 +290,7 @@ const Hero = () => {
                         <div
                           className={
                             btn3 == !true
-                              ? `transition-all duration-700 ease-in-out font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
+                              ? `transition-all ease-linear duration-[0.5s] font-semibold text-left text-white border border-b-bright-blue border-l-0 border-r-0 border-t-0 w-[12rem]`
                               : `list-none text-left text-fade-gray`
                           }
                         ></div>
@@ -298,30 +301,30 @@ const Hero = () => {
                     <div
                       className={
                         btn1 == true || btn2 == true
-                          ? "flex w-full lg:ml-[-2px]"
+                          ? "flex w-full lg:ml-[-2px] transition-all ease-linear duration-[0.5s] "
                           : ""
                       }
                     >
                       {btn1 == true ? (
-                        <div className="lg:ml-[-3rem]">
+                        <div className="lg:ml-[-3rem] transition-all ease-linear duration-[0.5s] ">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[37rem] "></div> */}
-                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[3.8rem] lg:min-h-[3.8rem] xl:min-h-[4rem] relative left-0 right-0 bottom-0"></div>
+                          <div className="transition-all ease-linear duration-[0.5s]  flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[3.8rem] lg:min-h-[3.8rem] xl:min-h-[4rem] relative left-0 right-0 bottom-0"></div>
                         </div>
                       ) : (
                         ""
                       )}
                       {btn2 == true ? (
-                        <div className="lg:ml-[-3rem]">
+                        <div className="lg:ml-[-3rem] transition-all ease-linear duration-[0.5s] ">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[39.2rem]"></div> */}
-                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[6.5rem] lg:min-h-[6.2rem] xl:min-h-[7.5rem] relative"></div>
+                          <div className="transition-all ease-linear duration-[0.5s] flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[6.5rem] lg:min-h-[6.2rem] xl:min-h-[7.5rem] relative"></div>
                         </div>
                       ) : (
                         ""
                       )}
                       {btn3 == true ? (
-                        <div className="">
+                        <div className="transition-all ease-linear duration-[0.5s] ">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[42.2rem]"></div> */}
-                          <div className="flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[8.8rem] lg:min-h-[8.7rem] xl:min-h-[11rem] relative"></div>
+                          <div className="transition-all ease-linear duration-[0.5s]  flex border min-w-full border-l-0 border-t-0 px-5 md:px-[4rem] lg:px-[2rem] xl:px-[6rem] border-b-bright-blue border-r-bright-blue md:min-h-[8.8rem] lg:min-h-[8.7rem] xl:min-h-[11rem] relative"></div>
                         </div>
                       ) : (
                         ""
@@ -339,10 +342,10 @@ const Hero = () => {
               <img
                 src={eko1}
                 alt="hero"
-                className=" object-contain w-full border-none "
+                className=" object-contain w-full border-noness"
               />
             </div>
-            <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[0rem]">
+            <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[3rem]">
               <div className="flex flex-col">
                 <div className="uppercase text-3xl">Get Started</div>
                 <div className="w-full cursor-pointer  flex gap-3 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">

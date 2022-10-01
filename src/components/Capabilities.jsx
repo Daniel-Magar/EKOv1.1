@@ -11,7 +11,10 @@ import I from "../img/I.png";
 
 const Capabilities = () => {
   return (
-    <section className="h-[70rem] md:h-screen my-[0rem] lg:my-0 md:mt-[4rem] lg:mt-2 relative">
+    <section
+      className="h-[70rem] md:h-screen my-[0rem] lg:my-0 md:mt-[4rem] lg:mt-2 relative"
+      id="capabilities"
+    >
       <div
         id="parent_div "
         className="mx-5  md:h-screen lg:h-[85%] xl:h-[100%]   2xl:h-[85%]   md:mx-[2rem] xl:mx-[6rem] "

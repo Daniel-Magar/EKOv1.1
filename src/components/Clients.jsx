@@ -137,8 +137,17 @@ const Clients = () => {
             fraud_detection={fraud_detection}
           />
         </div>
-        <div className="text-black bg-white flex justify-center items-center">
-          <a href="#">Get Started</a>
+        <div className="text-black bg-white flex justify-center items-center pb-[3rem]">
+          <a href="#">
+            <div className="flex flex-col">
+              <div className="uppercase text-3xl">Get Started</div>
+              <div className="w-full cursor-pointer  flex gap-3 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                <div className="border bg-bright-blue border-bright-blue w-[80%]"></div>
+                <div className=" w-30%"></div>
+                <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>

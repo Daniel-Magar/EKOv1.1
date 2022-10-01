@@ -72,7 +72,16 @@ const Carousel2 = (props) => {
               </p>
               <div className="flex flex-row justify-center items-center md:justify-start md:items-start  mt-10 md:mt-6 ">
                 <div>
-                  <a href="">View more</a>
+                  <a href="">
+                    <div className="flex flex-col">
+                      <div className="uppercase text-md">View more</div>
+                      <div className="w-full cursor-pointer  flex gap-1 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                        <div className="border bg-bright-blue border-bright-blue w-[80%]"></div>
+                        <div className=" w-10%"></div>
+                        <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -94,7 +103,16 @@ const Carousel2 = (props) => {
               </p>
               <div className="flex flex-row justify-center items-center md:justify-start md:items-start  mt-10 md:mt-6 ">
                 <div>
-                  <a href="">View more</a>
+                  <a href="">
+                    <div className="flex flex-col">
+                      <div className="uppercase text-md">View more</div>
+                      <div className="w-full cursor-pointer  flex gap-1 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                        <div className="border bg-bright-blue border-bright-blue w-[80%]"></div>
+                        <div className=" w-10%"></div>
+                        <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -116,7 +134,16 @@ const Carousel2 = (props) => {
               </p>
               <div className="flex flex-row justify-center items-center md:justify-start md:items-start mt-10 md:mt-6 ">
                 <div className="mb-4 md:mb-0">
-                  <a href="">View more</a>
+                  <a href="">
+                    <div className="flex flex-col">
+                      <div className="uppercase text-md">View more</div>
+                      <div className="w-full cursor-pointer  flex gap-1 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                        <div className="border bg-bright-blue border-bright-blue w-[80%]"></div>
+                        <div className=" w-10%"></div>
+                        <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
+                      </div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
