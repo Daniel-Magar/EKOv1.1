@@ -338,22 +338,28 @@ const Hero = () => {
 
           <div className="flex flex-col w-full items-start justify-center flex-[0.9] ">
             {/* <div className="w-full aspect-w-16 aspect-h-9"> */}
-            <div className="  w-full flex justify-start items-center mt-[-4rem]  ">
-              <img
-                src={eko1}
-                alt="hero"
-                className=" object-contain w-full border-noness"
-              />
+
+            <div className=" w-full flex justify-start items-center mt-[3rem]  py-3">
+              <div className=" z-[999] py-4 ">
+                <img
+                  src={eko1}
+                  alt="hero"
+                  className=" object-contain w-full border-none scale-[1.2]"
+                />
+              </div>
             </div>
-            <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6   mt-[3rem]">
+            <div className="flex items-end  gap-10 justify-end  text-left text-white w-full mr-6  mt-[2rem]">
               <div className="flex flex-col">
+                {/* <a className="hovera"> */}
                 <div className="uppercase text-3xl">Get Started</div>
                 <div className="w-full cursor-pointer  flex gap-3 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                   <div className="border bg-bright-blue border-bright-blue w-[80%]"></div>
                   <div className=" w-30%"></div>
                   <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
                 </div>
+                {/* </a> */}
               </div>
+
               <div className=" flex flex-col md:mr-[3rem] lg:mr-[3rem] xl:mr-[6rem]">
                 <div className="">
                   <img src={rightUpArrow} alt="" />

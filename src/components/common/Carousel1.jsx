@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 const Carousel1 = (props) => {
   console.log(props);
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col justify-center ">
       <Carousel
         responsive={props.responsive}
         showDots={false}
@@ -26,48 +26,84 @@ const Carousel1 = (props) => {
         autoPlay={true}
       >
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className="w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.Mindful} alt="Mindful" />
+          <div className=" h-auto lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.Mindful}
+              alt="Mindful"
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.Mercedes} alt="" />
+          <div className="  h-auto  lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.Mercedes}
+              alt=""
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.PAPL} alt="" />
+          <div className="  h-auto  lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.PAPL}
+              alt=""
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.Ooredoo} alt="" />
+          <div className=" h-auto lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.Ooredoo}
+              alt=""
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.Gaurdian} alt="" />
+          <div className=" h-auto lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.Gaurdian}
+              alt=""
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.STC} alt="" />
+          <div className=" h-auto lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.STC}
+              alt=""
+              className="md:w-[8rem] lg:w-10rem xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.CBA} alt="" />
+          <div className=" h-auto lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.CBA}
+              alt=""
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.Everside} alt="" />
+          <div className=" h-auto lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.Everside}
+              alt=""
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
         <div className="mr-2 lg:mr-[1.5rem]">
-          <div className=" w-full h-auto lg:w-[full] lg:h-auto flex items-center justify-center text-center bg-cover">
-            <img src={props.TTK} alt="" />
+          <div className="  h-auto lg:h-auto flex items-center justify-center text-center bg-cover">
+            <img
+              src={props.TTK}
+              alt=""
+              className="md:w-[8rem] lg:w-[10rem] xl:w-[12rem] 2xl:w-[14rem]"
+            />
           </div>
         </div>
       </Carousel>

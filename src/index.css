@@ -82,7 +82,7 @@ body {
   /* border: 1px solid red; 
   width: 100px;
   border: 1px solie purple; */
- /* background-color: black; */
+  /* background-color: black; */
   color: #fff;
   height: 100vh;
 }
@@ -175,7 +175,7 @@ body {
   visibility: hidden;
   flex-direction: column;
   margin-left: -16rem;
- overflow: hidden;
+  overflow: hidden;
   /* padding-left: 50px; */
   transition: transform 0.5s ease-in-out;
   text-align: center;
@@ -539,7 +539,7 @@ body {
   content: "";
 }
 .bgblur2 {
-  background-color: #0f173a;
+  background-color: #0f193e;
   border: none;
 }
 .bgblur2:before {
@@ -560,7 +560,7 @@ body {
    * still needed for 
    * some mobile browsers 💔😭 */
   -webkit-filter: blur(10px);
-  filter: blur(10px);
+  filter: blur(20px);
   content: "";
 }
 .mygillsans {
@@ -610,7 +610,7 @@ form {
   margin: 45px auto;
 }
 form h1 {
-  font-size: 3em;
+  /* font-size: 3em; */
   font-weight: 300;
   text-align: center;
   color: #2196f3;
@@ -629,7 +629,7 @@ form hr.sep {
   margin: 0px auto 45px auto;
 }
 form .emoji {
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
 }
 
 .group {
@@ -748,7 +748,66 @@ label {
   text-align: center;
   margin: 50px 0;
 }
+.clip-circle {
+  clip-path: circle(280px at center);
+  background: radial-gradient(closest-side, #00001e, #000014, #000014);
+}
 
+.clip-circle2 {
+  clip-path: circle(280px at center);
+  background: radial-gradient(closest-side, black, black, #000014);
+}
+.grad {
+  background-color: black;
+
+  background: radial-gradient(closest-side, black, black, #000014);
+}
+.test {
+  background-image: radial-gradient(ellipse, #000328, transparent 70%);
+  padding: 3rem;
+  /* background-color: #000026; */
+  font-size: 70px;
+  display: inline-block;
+  border: solid 1px black;
+}
+.blurimg {
+  z-index: 1;
+  box-shadow: 0 0 80px 80px black inset;
+  /* clip-path: ellipse(50vw 50vh at 50vw 50vh); */
+  /* clip-path: ellipse(25vw 25vh at 50vw 50vh); */
+
+  background: radial-gradient(#000027, #000011);
+}
+.himg {
+  box-shadow: 0 0 80px 80px #00001b inset;
+}
+.hovera {
+  position: relative;
+}
+.hovera:before {
+  position: absolute;
+  left: 0px;
+  content: "";
+  height: 40px;
+  width: 100px;
+  border-bottom: solid 3px #019fb6;
+
+  /* opacity: 1; */
+}
+.hovera:after {
+  position: absolute;
+  left: 0px;
+  content: "";
+  height: 4px;
+  width: 0px;
+  border-bottom: solid 3px #019fb6;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.hovera:hover:after {
+  width: 120px;
+}
 /* Media query for carousel arrow */
 @media (min-width: 320px) {
   /* smartphones, iPhone, portrait 480x320 phones */
@@ -778,7 +837,35 @@ label {
 }
 @media (min-width: 1025px) {
   /* big landscape tablets, laptops, and desktops */
+  .dashline {
+    /* border: 1px solid white; */
+    margin: 5px 0;
+    height: 2px;
+
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 10px,
+      #0074e5 10px,
+      #0074e5 20px
+    );
+    /*10px transparent then 10px black -> repeat this!*/
+  }
 }
 @media (min-width: 1281px) {
   /* hi-res laptops and desktops */
+  .dashline {
+    /* border: 1px solid white; */
+    margin: 5px 0;
+    height: 2px;
+
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 10px,
+      #0074e5 10px,
+      #0074e5 20px
+    );
+    /*10px transparent then 10px black -> repeat this!*/
+  }
 }

@@ -56,7 +56,7 @@ const Carousel2 = (props) => {
         // autoPlay={true}
       >
         <div className="md:mx-5">
-          <div className=" w-full h-[28rem] md:h-[32rem] lg:w-[full] lg:h-[26rem] flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[26rem] flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             {" "}
             <div>
               <img src={props.fraud_detection} alt="Fraud Detection" />
@@ -88,7 +88,7 @@ const Carousel2 = (props) => {
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full h-[28rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF]  md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF]  md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.customer_churn} alt="" />
             </div>
@@ -119,7 +119,7 @@ const Carousel2 = (props) => {
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full h-[28rem] md:h-[32rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.credit_risk} alt="" />
             </div>
@@ -127,7 +127,7 @@ const Carousel2 = (props) => {
               <h1 className="flex justify-start items-start text-left uppercase text-[24px] font-semibold lg:text-[26px] lg:font-semibold">
                 CREDIT RISK SCORING
               </h1>
-              <p className="flex justify-center items-center text-justify mt-12">
+              <p className="flex justify-center items-center text-justify mt-12 md:mt-[2.75rem] lg:mt-12">
                 Leverage AI to analyze massive data sets, better identify fraud
                 patterns, and flag fraudulent transactions as they happen in
                 real-time.

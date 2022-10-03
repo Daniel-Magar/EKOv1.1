@@ -12,37 +12,39 @@ const Bridge = () => {
       <div className="">
         <div id="parent_div" className=" max-h-[50rem]">
           <div id="background"></div>
-          <div id="textarea mt-[4rem]">
+          <div id="textarea mt-[4rem] ">
             <div className="overflow-hidden relative pb-[9rem] md:pb-[6rem] lg:pb-[1rem]">
               <img
                 src={bgblur}
                 alt=""
-                className=" object-contain ml-[-11rem] lg:ml-0 lg:mr-0 mr-[15rem] max-w-[55rem] md:max-w-[70rem] lg:max-w-[66rem] xl:max-w-[80rem] overflow-hidden"
+                className=" object-contain ml-[-11rem] lg:ml-0 lg:mr-0 mr-[15rem] max-w-[55rem] md:max-w-[70rem] lg:max-w-[66rem] xl:max-w-full 2xl:max-w-full overflow-hidden"
               />
             </div>
             <div className=" mx-6 md:mx-16 absolute left-0 right-0 bottom-0 top-0 text-white">
-              <div className="flex flex-col items-center justify-center text-center md:mx-6 mt-[2rem]">
-                <h1 className="capitalize text-3xl xl:text-[3rem]">
-                  We help you{" "}
-                  <span className="text-[#2AF6FF] mr-2">Bridge</span>
+              <div className="flex flex-col items-center justify-center text-center md:mx-6 mt-[2rem] lg:mt-1 2xl:mt-[4rem]">
+                <h1 className=" text-3xl xl:text-[3rem] lg:tracking-[0.5rem]">
+                  We help you
+                  <span className="text-[#2AF6FF] mx-2 lg:mx-4 font-semibold">
+                    Bridge
+                  </span>
                   the gap through
                 </h1>
-                <p className="text-[13px] mt-4 xl:mt-[5rem] xl:text-[15px]">
+                <p className="text-[13px] mt-4 xl:mt-[5rem] lg:text-[1.1rem] xl:text-[1.3rem] xl:w-[45%] ">
                   We’re bringing together the right data, services, and
                   technology to help you grow towards your business goals.
                 </p>
               </div>
-              <div className=" py-6 min-h-fit grid grid-cols-2 place-items-center justify-center items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 w-full gap-2 mt-[3rem] lg:mt-[6rem] xl:mt-[5rem]">
+              <div className=" py-6 min-h-fit grid grid-cols-2 place-items-center justify-center items-center md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 w-full gap-2 mt-[3rem] lg:mt-[6rem] xl:mt-[8rem]">
                 <div className="">
                   <div className="w-auto relative h-auto">
                     <img
                       src={ai2}
                       alt=""
-                      className="object-fill  w-[11rem] md:w-[15rem] lg:w-[20rem]"
+                      className="object-fill  w-[11rem] md:w-[10rem] lg:w-[13rem] xl:w-[15rem] 2xl:w-[20rem]"
                     />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[32%] xl:left-[35%]  pt-2">
+                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[31%] xl:left-[32%] 2xl:left-[36%]  pt-2">
                           <h1 className="text-center  font-semibold text-black  text-[12px] lg:text-[1rem] xl:text-[1.5rem] ">
                             AI & ML
                           </h1>
@@ -72,11 +74,11 @@ const Bridge = () => {
                     <img
                       src={bigdata2}
                       alt=""
-                      className="object-fill bg-center w-[11rem] max-w-full md:w-[15rem] lg:w-[20rem]"
+                      className="object-fill bg-center w-[11rem] max-w-full md:w-[10rem] lg:w-[13rem] xl:w-[15rem] 2xl:w-[20rem]"
                     />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[32%] xl:left-[35%]   pt-2">
+                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[31%] xl:left-[32%] 2xl:left-[36%]   pt-2">
                           <h1 className="text-center font-semibold text-[12px] lg:text-[1rem] xl:text-[1.5rem]">
                             Big Data
                           </h1>
@@ -107,11 +109,11 @@ const Bridge = () => {
                     <img
                       src={ai2}
                       alt=""
-                      className="object-fill w-[11rem] max-w-full md:w-[15rem] lg:w-[20rem]"
+                      className="object-fill w-[11rem] max-w-full md:w-[10rem] lg:w-[13rem] xl:w-[15rem] 2xl:w-[20rem]"
                     />
                     <div className="text-black  ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[32%] xl:left-[35%]    pt-2">
+                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[31%] xl:left-[32%] 2xl:left-[36%]    pt-2">
                           <h1 className="text-center  font-semibold text-black  text-[12px] lg:text-[1rem] xl:text-[1.5rem]">
                             AI & ML
                           </h1>
@@ -141,11 +143,11 @@ const Bridge = () => {
                     <img
                       src={bigdata2}
                       alt=""
-                      className="object-fill bg-center w-[11rem] max-w-full md:w-[15rem] lg:w-[20rem]"
+                      className="object-fill bg-center w-[11rem] max-w-full md:w-[10rem] lg:w-[13rem] xl:w-[15rem] 2xl:w-[20rem]"
                     />
                     <div className="text-black ">
                       <div className="flex flex-col justify-center items-center text-center">
-                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[32%] xl:left-[35%]   pt-2">
+                        <div className="absolute top-[50%] left-[2.8rem] md:left-[30%] lg:left-[31%] xl:left-[32%] 2xl:left-[36%]    pt-2">
                           <h1 className="text-center font-semibold text-[12px] lg:text-[1rem] xl:text-[1.5rem] ">
                             Big Data
                           </h1>

@@ -17,7 +17,7 @@ const Capabilities = () => {
     >
       <div
         id="parent_div "
-        className="mx-5  md:h-screen lg:h-[85%] xl:h-[100%]   2xl:h-[85%]   md:mx-[2rem] xl:mx-[6rem] "
+        className=" mx-5  md:h-screen lg:h-[85%] xl:h-[100%]   2xl:h-[85%]   md:mx-[2rem] xl:mx-[6rem] lg:mt-[8rem] xl:mt-[4rem] 2xl:mt-[24rem]"
       >
         <div id="background"></div>
         <div id="textarea" className=" ">
@@ -104,7 +104,7 @@ const Capabilities = () => {
               </h1>
             </div>
             <div className="hidden md:flex lg:flex ">
-              <h1 className="capitalize bgblur2 border-0 p-3 ml-[-8rem] md:mt-[5.5rem] lg:mt-[12rem] xl:mt-[12rem] 2xl:mt-[18.5rem]  absolute  text-[30px] md:text-[30px] lg:text-[38px] ">
+              <h1 className="capitalize bgblur2 border-0 p-3 ml-[-8rem] md:mt-[5.5rem] lg:mt-[12rem] xl:mt-[12rem] 2xl:mt-[19rem]  absolute  text-[30px] md:text-[30px] lg:text-[38px] xl:text-[42px] font-semibold ">
                 our Capabilites
               </h1>
             </div>

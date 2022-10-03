@@ -42,16 +42,24 @@ const Footer = () => {
             </div>
 
             <div className="mt-6 ">
-              <a href="https://goo.gl/maps/EexKuS4jUW3TKAUR7" target="_blank">
+              <a
+                href="https://goo.gl/maps/EexKuS4jUW3TKAUR7"
+                target="_blank"
+                className="md:text-[0.8em] lg:text-[1.5em]"
+              >
                 <h1>India</h1>
-                <p>
+                <p className="">
                   No.76, 7th A cross, 4th B Block, Koramangala, Bangalore,
                   Karnataka 560034.
                 </p>
               </a>
             </div>
             <div className="mb-6 mt-8 ">
-              <a href="https://goo.gl/maps/D77hHcNhb3k4HA23A" target="_blank">
+              <a
+                href="https://goo.gl/maps/D77hHcNhb3k4HA23A"
+                target="_blank"
+                className="md:text-[0.8em] lg:text-[1.5em]"
+              >
                 <h1>USA</h1>
                 <p>
                   USA EKO INFOMATICS SOLUTIONS INC. 171 Sylvan St Rutherford NJ

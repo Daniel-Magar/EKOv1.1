@@ -45,7 +45,7 @@ const OurSolution = () => {
                     alt=""
                     className="w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"
                   /> */}
-                  <div className="bg-bright-blue w-2 h-2 rounded "></div>
+                  <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2  rounded "></div>
                   <div className="dashline w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
                 </div>
                 <div className="">
@@ -67,7 +67,7 @@ const OurSolution = () => {
                     alt=""
                     className="w-[7rem] md:w-[10rem] lg:w-[15rem] xl:w-[25rem]"
                   /> */}
-                  <div className="bg-bright-blue w-2 h-2 rounded "></div>
+                  <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2 rounded "></div>
                   <div className="dashline w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
                 </div>
                 <div></div>
@@ -88,7 +88,7 @@ const OurSolution = () => {
                     alt=""
                     className="w-[1rem] md:w-[2rem]"
                   /> */}
-                  <div className="bg-bright-blue w-2 h-2 rounded "></div>
+                  <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2 rounded "></div>
                   <div className="dashline w-[1rem] md:w-[2rem]"></div>
                 </div>
                 <div>
@@ -110,7 +110,7 @@ const OurSolution = () => {
                     alt=""
                     className="w-[7rem] md:w-[10rem] lg:w-[15rem] xl:w-[25rem]"
                   /> */}
-                  <div className="bg-bright-blue w-2 h-2 rounded "></div>
+                  <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2  rounded "></div>
                   <div className="dashline w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
                 </div>
                 <div className="">
@@ -133,7 +133,7 @@ const OurSolution = () => {
                     alt=""
                     className="w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"
                   /> */}
-                  <div className="bg-bright-blue w-2 h-2 rounded "></div>
+                  <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2  rounded "></div>
                   <div className="dashline w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
                 </div>
                 <div className="">

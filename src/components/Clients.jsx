@@ -94,16 +94,16 @@ const Clients = () => {
   };
   return (
     <section className=" text-black md:mt-10 lg:mt-13 xl:mt-16 2xl:mt-0 ">
-      <div className="border mt-[2rem] md:mt-[6rem] lg:mt-0 bg-[#F5FEFF] border-r-0 border-l-0 border-b-0 rounded-t-[3rem]  relative">
-        <div className=" flex flex-col justify-center items-center mt-10">
-          <h1 className=" text-[2.3rem] md:text-[2.3rem] lg:text-[3rem] font-medium">
+      <div className="border mt-[2rem] md:mt-[6rem] bg-[#F5FEFF] border-r-0 border-l-0 border-b-0 rounded-t-[3rem]  relative">
+        <div className=" flex flex-col justify-center items-center mt-10 lg:mt-[5rem] xl:mt-[5rem] ">
+          <h1 className=" text-[2.3rem] md:text-[2.3rem] lg:text-[3rem] xl:text-[3rem]  2xl:text-[4rem] font-medium lg:font-semibold lg:tracking-wider">
             Always by our client’s side{" "}
           </h1>
-          <p className="w-[80%] text-[1rem] lg:text-[1.1rem] text-center">
+          <p className="w-[80%] text-[1rem] lg:text-[1.1rem]  xl:text-[1.4rem]  2xl:text-[1.8rem] text-center">
             from manufacturing to defense our partners span all across the Globe
           </p>
         </div>
-        <div className=" flex flex-col">
+        <div className=" flex flex-col mt-5 lg:mt-14">
           <Carousel1
             responsive={responsive}
             Mindful={Mindful}
@@ -119,10 +119,10 @@ const Clients = () => {
         </div>
         <div className="mt-12">
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-[1.8rem] md:text-[2.3rem] font-medium">
+            <h1 className="text-[1.8rem] md:text-[2.3rem] font-medium lg:text-[3rem]  xl:text-[3rem]  2xl:text-[4rem] lg:font-semibold">
               Our Solved Cases
             </h1>
-            <p className="w-[80%] text-[1rem] text-center mt-3">
+            <p className="w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] text-[1rem]  lg:text-[1.1rem]  xl:text-[1.4rem]  2xl:text-[1.8rem] text-center mt-3">
               AI is transforming every industry and department by delivering
               better insights, personalized experiences, streamlined operations,
               and reduced risk.
