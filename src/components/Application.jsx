@@ -43,7 +43,7 @@ const Application = () => {
                     <h1 className="hidden md:hidden    text-black lg:flex justify-center items-center pt-5 pb-7 text-2xl 2xl:text-[2rem] font-semibold lg:justify-start lg:pt-1">
                       Application of AI
                     </h1>
-                    <p className="w-full hidden md:hidden 2xl:text-[1.2rem]  text-black lg:flex md:pt-[4rem]  md:pb-[4rem] lg:pt-[6rem] lg:pb-0 lg:justify-center lg:items-center">
+                    <p className="w-full hidden md:hidden 2xl:text-[1.2rem]  text-black lg:flex md:pt-[4rem]  md:pb-[4rem] lg:pt-[0rem] xl:pt-0 2xl:pt-[6rem] lg:pb-0 lg:justify-center lg:items-center">
                       Artificial Intelligence has various applications in
                       today's society. It is becoming essential for today's time
                       because it can solve complex problems with an efficient
@@ -53,7 +53,7 @@ const Application = () => {
                     </p>
                   </div>
                 </div>
-                <div className="bg-[#F5FEFF] pb-5 flex justify-center items-center ml-0 lg:flex lg:justify-start lg:items-start xl:ml-[6rem] lg:ml-[3rem] xl:mr-[10rem]  ">
+                <div className="bg-[#F5FEFF] pb-5 md:pb-3 flex justify-center items-center ml-0 lg:flex lg:justify-start lg:items-start xl:ml-[6rem] lg:ml-[3rem] xl:mr-[10rem]  ">
                   <div>
                     <button className="text-xl">View More</button>
                     <div className="w-full flex gap-1 ">
