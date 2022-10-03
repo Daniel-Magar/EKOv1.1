@@ -339,7 +339,7 @@ const Hero = () => {
           <div className="flex flex-col w-full items-start justify-center flex-[0.9] ">
             {/* <div className="w-full aspect-w-16 aspect-h-9"> */}
 
-            <div className=" w-full flex justify-start items-center mt-[3rem] py-3">
+            <div className=" w-full flex justify-start items-center mt-[3rem] py-3 xl:mt-[-4rem]">
               <div className=" py-4 ">
                 <img
                   src={eko1}

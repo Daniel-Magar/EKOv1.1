@@ -45,7 +45,7 @@ const Footer = () => {
               <a
                 href="https://goo.gl/maps/EexKuS4jUW3TKAUR7"
                 target="_blank"
-                className="md:text-[0.8em] lg:text-[1.5em]"
+                className="md:text-[0.8em] lg:text-[1.2rem] 2xl:text-[1.5em]"
               >
                 <h1>India</h1>
                 <p className="">
@@ -58,7 +58,7 @@ const Footer = () => {
               <a
                 href="https://goo.gl/maps/D77hHcNhb3k4HA23A"
                 target="_blank"
-                className="md:text-[0.8em] lg:text-[1.5em]"
+                className="md:text-[0.8em] lg:text-[1.2rem] 2xl:text-[1.5em]"
               >
                 <h1>USA</h1>
                 <p>
