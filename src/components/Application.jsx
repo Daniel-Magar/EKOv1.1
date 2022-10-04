@@ -3,8 +3,8 @@ import AIVid from "../img/AIVid.png";
 
 const Application = () => {
   return (
-    <section>
-      <div className="  ">
+    <section className=" md:min-h-[5rem] lg:min-h-[5rem]">
+      <div className=" md:mt-[2rem] lg:mt-[1rem] ">
         <div className="bg-black w-full  min-h-[14rem] md:min-h-[14rem] lg:min-h-[14rem] xl:min-h-[30em] 2xl:min-h-[27rem] py-1 lg:py-2 xl:py-10 2xl:py-14 z-10  flex flex-col  md:flex-col lg:flex-row-reverse">
           <div className="lg:w-[60%] bg-[#F5FEFF] border-none lg:relative ">
             <h1 className=" lg:hidden text-black flex justify-center items-center pt-5 pb-7 text-2xl font-semibold lg:justify-start lg:pt-1">

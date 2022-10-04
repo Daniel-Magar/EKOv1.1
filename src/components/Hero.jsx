@@ -67,13 +67,13 @@ const Hero = () => {
 
   return (
     <section
-      className="bg-black w-full  h-screen  md:mb-[2rem] lg:mb-0"
+      className="bg-black w-full min-h-[45rem]   md:min-h-[28rem] py-5   md:mb-[2rem] lg:mb-0"
       id="home"
     >
       <div className="relative">
         {/* Mobile Screen */}
         <div className="flex flex-col gap-5 lg:hidden md:hidden">
-          <div className="mx-[2rem] ">
+          <div className="mx-[2rem]">
             <div className="flex items-center justify-center text-center md:justify-start md:text-left lg:justify-start lg:text-left">
               <h1 className="uppercase text-white lg:text-[1rem] xl:text-[1rem] tracking-widest">
                 eko solutions powers
@@ -90,7 +90,7 @@ const Hero = () => {
               <img
                 src={eko1}
                 alt="hero"
-                className="object-contain w-[100%] lg:w-full"
+                className="object-contain w-full"
               />
             </div>
           </div>
@@ -169,7 +169,7 @@ const Hero = () => {
                 <div className=" ml-5 flex-1 ">
                   <div className="flex">
                     {btn1 == true ? (
-                      <div className="ml-[-2.5rem]">
+                      <div className="ml-[-2.5rem] md:ml-0">
                         <div className="flex justify-end items-end transition-all ease-in-out duration-[0.5s]">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[37rem] "></div> */}
                           <div className="w-1 h-1 rounded bg-bright-blue p-[3px] mb-[-3px] "></div>
@@ -180,7 +180,7 @@ const Hero = () => {
                       ""
                     )}
                     {btn2 == true ? (
-                      <div className="ml-[-2.5rem]">
+                      <div className="ml-[-2.5rem] md:ml-0">
                         <div className="flex justify-end items-end">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[39.2rem]"></div> */}
                           <div className="w-1 h-1 rounded bg-bright-blue p-[3px] mb-[-3px] "></div>
@@ -191,7 +191,7 @@ const Hero = () => {
                       ""
                     )}
                     {btn3 == true ? (
-                      <div className="">
+                      <div className="ml-[-2.5rem] md:ml-0">
                         <div className="flex justify-end items-end transition-all ease-linear duration-[0.5s]  ">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[42.2rem]"></div> */}
                           <div className="w-1 h-1 rounded bg-bright-blue p-[3px] mb-[-3px] "></div>
