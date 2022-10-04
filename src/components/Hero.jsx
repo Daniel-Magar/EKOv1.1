@@ -191,7 +191,7 @@ const Hero = () => {
                       ""
                     )}
                     {btn3 == true ? (
-                      <div className="ml-[-2.5rem] md:ml-0">
+                      <div className="ml-0 md:ml-0">
                         <div className="flex justify-end items-end transition-all ease-linear duration-[0.5s]  ">
                           {/* <div className="bg-bright-blue w-[5px] p-[4px] rounded-[50%] absolute top-[42.2rem]"></div> */}
                           <div className="w-1 h-1 rounded bg-bright-blue p-[3px] mb-[-3px] "></div>
