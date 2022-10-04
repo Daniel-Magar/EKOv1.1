@@ -13,7 +13,10 @@ import DottedLineSm2 from "../img/DottedLineSm2.png";
 
 const OurSolution = () => {
   return (
-    <section className="py-[2rem] lg:py-10 xl:py-[13rem]" id="industries">
+    <section
+      className="py-[2rem] lg:py-4 xl:py-[6rem] 2xl:py-[4rem]"
+      id="industries"
+    >
       <div className="bg-main-black">
         <div className=" flex justify-between items-end text-white mr-6 md:mr-[2rem] lg:mr-[4rem] xl:mr-[4.5rem]">
           <div className="text-white "></div>
@@ -167,7 +170,7 @@ const OurSolution = () => {
           <div className=" w-full"></div>
           <div className="z-[1] ">
             <div className="w-full">
-              <h1 className="text-right md:text-3xl lg:text-4xl xl:text-5xl z-[1]">
+              <h1 className="text-right md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-normal tracking-widest z-[1]">
                 MULTIPLE INDUSTRIES
               </h1>
             </div>

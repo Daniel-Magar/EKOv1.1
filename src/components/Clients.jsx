@@ -137,17 +137,19 @@ const Clients = () => {
             fraud_detection={fraud_detection}
           />
         </div>
-        <div className="text-black bg-white flex justify-center items-center pb-[3rem]">
-          <a href="#">
+        <div className="text-black bg-white flex justify-center items-center pb-[3rem] md:pb-[3rem] lg:pb-[4rem] xl:pb-[5rem] 2xl:pb-[7rem] md:pt-[2rem] lg:pt-[2rem] xl:pt-[3rem] 2xl:pt-[5rem]">
+          <div className="group mygroup">
             <div className="flex flex-col">
-              <div className="uppercase text-3xl">Get Started</div>
-              <div className="w-full cursor-pointer  flex gap-3 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                <div className="border bg-bright-blue border-bright-blue w-[80%]"></div>
-                <div className=" w-30%"></div>
-                <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
+              <div className="uppercase text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-wider cursor-pointer hover:ease-linear duration-300">
+                Get <b>Started</b>
+              </div>
+              <div className="w-full cursor-pointer   flex gap-3 group-hover:transition-all ease-linear duration-[0.5s] group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] ">
+                <div className=" py-[2px] bg-bright-blue border-bright-blue w-[80%] group-hover:bg-transparent group-hover:transition-all ease-linear duration-[0.5s]"></div>
+                <div className="py-[2px] w-30% group-hover:bg-transparent group-hover:transition-all ease-linear duration-[0.5s]"></div>
+                <div className="py-[2px]  bg-bright-blue border-bright-blue w-[10%] group-hover:bg-transparent  group-hover:transition-all  ease-linear duration-[0.5s]"></div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>

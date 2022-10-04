@@ -53,14 +53,16 @@ const Bridge = () => {
                             <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           </div>
                           <div className="  text-black flex justify-center items-center pt-2">
-                            <div>
-                              <button className="text-[12px] mt-2 lg:text-[1rem] xl:text-[1.5rem]">
-                                View More
-                              </button>
-                              <div className="w-full   flex gap-1 ">
-                                <div className="border border-bright-blue w-[80%]  bg-bright-blue"></div>
-                                <div className=" "></div>
-                                <div className="border border-bright-blue w-[10%]  bg-bright-blue"></div>
+                            <div className="  text-black flex justify-center items-center pt-2">
+                              <div className="group mygroup">
+                                <button className="text-[12px] lg:text-[1rem] xl:text-[1rem] mt-2 font-semibold tracking-wider">
+                                  View More
+                                </button>
+                                <div className="w-full   flex gap-1 group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] hover:transition-all ease-linear duration-[1s]">
+                                  <div className="border border-bright-blue w-[80%] bg-bright-blue group-hover:w-0"></div>
+                                  <div className=" group-hover:w-0"></div>
+                                  <div className="border border-bright-blue w-[10%]  bg-bright-blue group-hover:w-0"></div>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -86,16 +88,15 @@ const Bridge = () => {
                             <h1 className="text-center ">ETL/EDW/MDM</h1>
                             <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           </div>
-
                           <div className="  text-black flex justify-center items-center pt-2">
-                            <div>
-                              <button className="text-[12px] mt-2 lg:text-[1rem] xl:text-[1.5rem]">
+                            <div className="group mygroup">
+                              <button className="text-[12px] lg:text-[1rem] xl:text-[1rem] mt-2 font-semibold tracking-wider">
                                 View More
                               </button>
-                              <div className="w-full   flex gap-1 ">
-                                <div className="border border-bright-blue w-[80%]  bg-bright-blue"></div>
-                                <div className=" "></div>
-                                <div className="border border-bright-blue w-[10%]  bg-bright-blue"></div>
+                              <div className="w-full   flex gap-1 group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] hover:transition-all ease-linear duration-[1s]">
+                                <div className="border border-bright-blue w-[80%] bg-bright-blue group-hover:w-0"></div>
+                                <div className=" group-hover:w-0"></div>
+                                <div className="border border-bright-blue w-[10%]  bg-bright-blue group-hover:w-0"></div>
                               </div>
                             </div>
                           </div>
@@ -122,14 +123,14 @@ const Bridge = () => {
                             <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           </div>
                           <div className="  text-black flex justify-center items-center pt-2">
-                            <div>
-                              <button className="text-[12px] mt-2 lg:text-[1rem] xl:text-[1.5rem]">
+                            <div className="group mygroup">
+                              <button className="text-[12px] lg:text-[1rem] xl:text-[1rem] mt-2 font-semibold tracking-wider">
                                 View More
                               </button>
-                              <div className="w-full   flex gap-1 ">
-                                <div className="border border-bright-blue w-[80%]  bg-bright-blue"></div>
-                                <div className=" "></div>
-                                <div className="border border-bright-blue w-[10%]  bg-bright-blue"></div>
+                              <div className="w-full   flex gap-1 group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] hover:transition-all ease-linear duration-[1s]">
+                                <div className="border border-bright-blue w-[80%] bg-bright-blue group-hover:w-0"></div>
+                                <div className=" group-hover:w-0"></div>
+                                <div className="border border-bright-blue w-[10%]  bg-bright-blue group-hover:w-0"></div>
                               </div>
                             </div>
                           </div>
@@ -156,14 +157,14 @@ const Bridge = () => {
                             <h1 className="text-center ">AI/ML/BI/Reporting</h1>
                           </div>
                           <div className="  text-black flex justify-center items-center pt-2">
-                            <div>
-                              <button className="text-[12px] lg:text-[1rem] xl:text-[1.5rem] mt-2">
+                            <div className="group mygroup">
+                              <button className="text-[12px] lg:text-[1rem] xl:text-[1rem] mt-2 font-semibold tracking-wider">
                                 View More
                               </button>
-                              <div className="w-full   flex gap-1 ">
-                                <div className="border border-bright-blue w-[80%] bg-bright-blue"></div>
-                                <div className=" "></div>
-                                <div className="border border-bright-blue w-[10%]  bg-bright-blue"></div>
+                              <div className="w-full   flex gap-1 group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] hover:transition-all ease-linear duration-[1s]">
+                                <div className="border border-bright-blue w-[80%] bg-bright-blue group-hover:w-0"></div>
+                                <div className=" group-hover:w-0"></div>
+                                <div className="border border-bright-blue w-[10%]  bg-bright-blue group-hover:w-0"></div>
                               </div>
                             </div>
                           </div>

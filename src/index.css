@@ -749,12 +749,12 @@ label {
   margin: 50px 0;
 }
 .clip-circle {
-  clip-path: circle(280px at center);
+  clip-path: circle(190px at center);
   background: radial-gradient(closest-side, #00001e, #000014, #000014);
 }
 
 .clip-circle2 {
-  clip-path: circle(280px at center);
+  clip-path: circle(300px at center);
   background: radial-gradient(closest-side, black, black, #000014);
 }
 .grad {
@@ -807,6 +807,10 @@ label {
 
 .hovera:hover:after {
   width: 120px;
+}
+.mygroup {
+  /* position: relative; */
+  margin: 0px 0;
 }
 /* Media query for carousel arrow */
 @media (min-width: 320px) {

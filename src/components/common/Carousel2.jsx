@@ -56,7 +56,7 @@ const Carousel2 = (props) => {
         // autoPlay={true}
       >
         <div className="md:mx-5">
-          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[26rem] flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[28rem] flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             {" "}
             <div>
               <img src={props.fraud_detection} alt="Fraud Detection" />
@@ -70,8 +70,8 @@ const Carousel2 = (props) => {
                 patterns, and flag fraudulent transactions as they happen in
                 real-time.
               </p>
-              <div className="flex flex-row justify-center items-center md:justify-start md:items-start  mt-10 md:mt-6 ">
-                <div>
+              <div className="flex flex-row justify-center items-center md:justify-start md:items-start lg:justify-center lg:items-center mt-10 md:mt-6 ">
+                {/* <div>
                   <a href="">
                     <div className="flex flex-col">
                       <div className="uppercase text-md">View more</div>
@@ -82,13 +82,25 @@ const Carousel2 = (props) => {
                       </div>
                     </div>
                   </a>
+                </div> */}
+                <div className="  text-black flex justify-center items-center ">
+                  <div className="group mygroup">
+                    <button className="text-[12px] lg:text-[1rem] xl:text-[1.1rem]  2xl:text-[1.3rem] font-semibold tracking-wider">
+                      View More
+                    </button>
+                    <div className="w-full   flex gap-1 group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] hover:transition-all ease-linear duration-[1s]">
+                      <div className="border border-bright-blue w-[80%] bg-bright-blue group-hover:w-0"></div>
+                      <div className=" group-hover:w-0"></div>
+                      <div className="border border-bright-blue w-[10%]  bg-bright-blue group-hover:w-0"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF]  md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[28rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF]  md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.customer_churn} alt="" />
             </div>
@@ -101,8 +113,8 @@ const Carousel2 = (props) => {
                 patterns, and flag fraudulent transactions as they happen in
                 real-time.
               </p>
-              <div className="flex flex-row justify-center items-center md:justify-start md:items-start  mt-10 md:mt-6 ">
-                <div>
+              <div className="flex flex-row justify-center items-center md:justify-start md:items-start lg:justify-center lg:items-center  mt-10 md:mt-6 ">
+                {/* <div>
                   <a href="">
                     <div className="flex flex-col">
                       <div className="uppercase text-md">View more</div>
@@ -113,13 +125,25 @@ const Carousel2 = (props) => {
                       </div>
                     </div>
                   </a>
+                </div> */}
+                <div className="  text-black flex justify-center items-center ">
+                  <div className="group mygroup">
+                    <button className="text-[12px] lg:text-[1rem] xl:text-[1.1rem]  2xl:text-[1.3rem] font-semibold tracking-wider">
+                      View More
+                    </button>
+                    <div className="w-full   flex gap-1 group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] hover:transition-all ease-linear duration-[1s]">
+                      <div className="border border-bright-blue w-[80%] bg-bright-blue group-hover:w-0"></div>
+                      <div className=" group-hover:w-0"></div>
+                      <div className="border border-bright-blue w-[10%]  bg-bright-blue group-hover:w-0"></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="md:mx-5">
-          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[26rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
+          <div className=" w-full h-[28rem] md:h-[26rem] lg:w-[full] lg:h-[28rem]  flex flex-col items-center justify-start text-center bg-cover bg-[#EAFAFF] md:pb-3 lg:pb-8 xl:pb-10 2xl:pb-14">
             <div>
               <img src={props.credit_risk} alt="" />
             </div>
@@ -132,9 +156,9 @@ const Carousel2 = (props) => {
                 patterns, and flag fraudulent transactions as they happen in
                 real-time.
               </p>
-              <div className="flex flex-row justify-center items-center md:justify-start md:items-start mt-10 md:mt-6 ">
+              <div className="flex flex-row justify-center items-center md:justify-start md:items-start lg:justify-center lg:items-center mt-10 md:mt-6 ">
                 <div className="mb-4 md:mb-0">
-                  <a href="">
+                  {/* <a href="">
                     <div className="flex flex-col">
                       <div className="uppercase text-md">View more</div>
                       <div className="w-full cursor-pointer  flex gap-1 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
@@ -143,7 +167,19 @@ const Carousel2 = (props) => {
                         <div className="border bg-bright-blue border-bright-blue w-[10%]"></div>
                       </div>
                     </div>
-                  </a>
+                  </a> */}
+                  <div className="  text-black flex justify-center items-center ">
+                    <div className="group mygroup">
+                      <button className="text-[12px] lg:text-[1rem] xl:text-[1.1rem]  2xl:text-[1.3rem] font-semibold tracking-wider">
+                        View More
+                      </button>
+                      <div className="w-full   flex gap-1 group-hover:bg-gradient-to-r from-[#0085FE] to-[#29E5FF] hover:transition-all ease-linear duration-[1s]">
+                        <div className="border border-bright-blue w-[80%] bg-bright-blue group-hover:w-0"></div>
+                        <div className=" group-hover:w-0"></div>
+                        <div className="border border-bright-blue w-[10%]  bg-bright-blue group-hover:w-0"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

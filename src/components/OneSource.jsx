@@ -3,7 +3,7 @@ import chakra from "../img/chakra.png";
 
 const OneSource = () => {
   return (
-    <section className=" ml-6 md:ml-8 py-[5.5rem] md:py-[12rem] lg:py-[1rem]">
+    <section className=" ml-6 md:ml-8 py-[5.5rem] md:py-[12rem] lg:py-[6rem] xl:py-[8rem] 2xl:py-[10rem]">
       <div className="flex items-end justify-end lg:justify-center lg:items-center text-white lg:gap-5 ">
         <div className=" flex-1  relative lg:ml-[6rem]">
           <div className="flex justify-start items-end  uppercase gap-5">
