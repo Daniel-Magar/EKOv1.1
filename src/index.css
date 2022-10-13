@@ -744,7 +744,7 @@ label {
 
 .btn-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   margin: 50px 0;
 }
@@ -811,6 +811,16 @@ label {
 .mygroup {
   /* position: relative; */
   margin: 0px 0;
+}
+.clipped-image {
+  /* -webkit-clip-path: polygon(21% 0, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(21% 0, 100% 0%, 100% 100%, 0 100%); */
+  -webkit-clip-path: polygon(21% 0, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(21% 0, 100% 0%, 100% 100%, 0 100%);
+  border: none;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: white !important;
 }
 /* Media query for carousel arrow */
 @media (min-width: 320px) {

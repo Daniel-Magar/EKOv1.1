@@ -4,6 +4,10 @@ import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import twitter from "../../img/socialmedia/twitter.png";
+import fb from "../../img/socialmedia/fb.png";
+import insta from "../../img/socialmedia/insta.png";
+import linkedin from "../../img/socialmedia/linkedin.png";
 
 const Footer = () => {
   const form = useRef();
@@ -131,24 +135,67 @@ const Footer = () => {
                     <label>Message</label>
                   </div>
                   <div className="flex flex-col">
-                    <p>
-                      I consent to allow my data to be used for personalized
-                      ads.
-                    </p>
+                    <div className="flex">
+                      <div>1</div>
+                      <div>2</div>
+                    </div>
+
                     <p className="py-6">
                       We'll use it to show more relevant ads and avoid showing
                       you ads of content/service you will not be interested in.
                     </p>
                   </div>
                   <div class="btn-box">
-                    <button class="btn btn-submit" type="submit">
+                    <button
+                      // class="btn btn-submit"
+                      type="submit"
+                      className="border border-[#1ECAFF] py-[1rem] px-[4.5rem] rounded-[4rem]"
+                    >
                       submit
                     </button>
-                    <button class="btn btn-cancel" type="button">
+                    {/* <button class="btn btn-cancel" type="button">
                       cancel
-                    </button>
+                    </button> */}
                   </div>
                 </form>
+              </div>
+            </div>
+            <div className="flex gap-4 justify-center items-center mb-5">
+              <div className="w-full flex justify-center items-center">
+                <a href="#">
+                  <img
+                    src={fb}
+                    alt="facebook"
+                    className="w-[3rem] max-w-[5rem] md:w-[6rem]"
+                  />
+                </a>
+              </div>
+              <div className="w-full flex justify-center items-center">
+                <a href="#">
+                  <img
+                    src={insta}
+                    alt="instagram"
+                    className="w-[3rem] max-w-[5rem] md:w-[6rem]"
+                  />
+                </a>
+              </div>
+              <div className="w-full flex justify-center items-center">
+                <a href="#">
+                  <img
+                    src={linkedin}
+                    alt="in"
+                    className="w-[3rem] max-w-[5rem] md:w-[6rem]"
+                  />
+                </a>
+              </div>
+              <div className="w-full flex justify-center items-center">
+                <a href="#">
+                  <img
+                    src={twitter}
+                    alt="twitter"
+                    className="w-[3rem] max-w-[5rem] md:w-[6rem]"
+                  />
+                </a>
               </div>
             </div>
           </div>
