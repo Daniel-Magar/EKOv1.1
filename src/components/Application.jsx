@@ -30,20 +30,28 @@ const Application = () => {
     <section className=" md:min-h-[5rem] lg:min-h-[5rem]">
       <div className=" md:mt-[2rem] lg:mt-[1rem] ">
         <div className="bg-black w-full  min-h-[14rem] md:min-h-[14rem] lg:min-h-[14rem] xl:min-h-[30em] 2xl:min-h-[27rem] py-1 lg:py-2 xl:py-10 2xl:py-14 z-10  flex flex-col  md:flex-col lg:flex-row-reverse">
-          <div className="lg:w-[60%] bg-black border-none lg:relative ">
+          <div className="lg:w-[60%] bg-white border-none lg:relative ">
             <h1 className=" lg:hidden text-black flex justify-center items-center pt-5 pb-7 text-2xl font-semibold lg:justify-start lg:pt-1">
               Application of AI
             </h1>
-            <div className=" flex justify-end lg:absolute lg:top-[-2rem] xl:top-[-2rem] 2xl:top-[-2rem] right-0 clipped-image border bg-black">
+            <div className="clip-your-needful-style-sm flex justify-end lg:absolute lg:top-[-2rem] xl:top-[-2rem] 2xl:top-[-2rem] right-0 lg:clip-your-needful-style  border bg-black">
               <img
                 src={AIVid}
                 alt="ArtificialIntelligence"
                 className="hidden md:hidden lg:flex lg:flex-1 flex-grow-0 md:max-w-[40rem] lg:max-w-[45rem] xl:max-w-[56rem] 2xl:max-w-[84rem] relative"
               />
-
-              <div className="  absolute  z-[999] bottom-2">
-                <button onClick={handleOpen} className="text-white ">
-                  <img src={Play} alt="play" />
+              <img
+                src={AIVid}
+                alt="ArtificialIntelligence"
+                className="lg:hidden flex relative"
+              />
+              <div className="  absolute  z-[999] lg:bottom-2   flex items-end ">
+                <button onClick={handleOpen} className="text-white mt-[5rem]">
+                  <img
+                    src={Play}
+                    alt="play"
+                    className="border-none w-[5rem] sm:w-[8rem]"
+                  />
                 </button>
                 <Modal
                   open={open}
@@ -68,16 +76,10 @@ const Application = () => {
                   </Box>
                 </Modal>
               </div>
-
-              <img
-                src={AIVid}
-                alt="ArtificialIntelligence"
-                className="lg:hidden flex"
-              />
             </div>
 
             <div className="lg:hidden mx-[2rem]">
-              <p className="pt-[2rem] pb-[2rem] w-full flex    text-black md:pt-[4rem] md:pb-[4rem]">
+              <p className="pt-[2rem] pb-[2rem] w-full flex   text-black md:pt-[4rem] md:pb-[4rem]">
                 Artificial Intelligence has various applications in today's
                 society. It is becoming essential for today's time because it
                 can solve complex problems with an efficient way in multiple

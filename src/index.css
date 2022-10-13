@@ -24,6 +24,21 @@ body {
 
   /* z-index: -1; */
 }
+@layer utilities {
+  .clip-your-needful-style {
+    -webkit-clip-path: polygon(21% 0, 100% 0%, 100% 100%, 0 100%);
+    clip-path: polygon(21% 0, 100% 0%, 100% 100%, 0 100%);
+    border: none;
+  }
+}
+
+@layer utilities {
+  .clip-your-needful-style-sm {
+    -webkit-clip-path: polygon(22% 0, 100% 0%, 78% 100%, 0% 100%);
+    clip-path: polygon(22% 0, 100% 0%, 78% 100%, 0% 100%);
+    border: none;
+  }
+}
 
 .container {
   max-width: 1050px;
