@@ -32,7 +32,7 @@ const OurSolution = () => {
               <img
                 src={world2}
                 alt="globe"
-                className="object-cover min-w-[5rem] max-w-[26rem]  md:max-w-lg lg:max-w-3xl xl:max-w-5xl overflow-hidden"
+                className="object-cover min-w-[5rem] max-w-[24rem]  md:max-w-lg lg:max-w-3xl xl:max-w-5xl overflow-hidden"
               />
             </div>
           </div>
@@ -49,13 +49,13 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"
                   /> */}
                   <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2  rounded "></div>
-                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
+                  <div className="dashline w-[3.5rem] sm:w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
                 </div>
                 <div className="">
                   <img
                     src={retail}
                     alt=""
-                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
+                    className="object-cover  w-[4rem]  max-w-[4rem] sm:w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -71,13 +71,13 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[15rem] xl:w-[25rem]"
                   /> */}
                   <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2 rounded "></div>
-                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
+                  <div className="dashline w-[3.5rem] sm:w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
                 </div>
                 <div></div>
                 <img
                   src={manufacture}
                   alt=""
-                  className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem]  lg:w-[12rem] lg:max-w-[12rem] xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
+                  className="object-cover w-[4rem] max-w-[4rem] md:w-[6rem] md:max-w-[8rem]  lg:w-[12rem] lg:max-w-[12rem] xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                   // className="max-w-full h-auto"
                 />
               </div>
@@ -98,7 +98,7 @@ const OurSolution = () => {
                   <img
                     src={healthcare}
                     alt=""
-                    className="object-cover   w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
+                    className="object-cover   w-[4rem] max-w-[4rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -114,13 +114,13 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[15rem] xl:w-[25rem]"
                   /> */}
                   <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2  rounded "></div>
-                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
+                  <div className="dashline w-[3.5rem] sm:w-[7rem]  md:w-[10rem] lg:w-[16rem] xl:w-[25rem]"></div>
                 </div>
                 <div className="">
                   <img
                     src={military}
                     alt=""
-                    className="object-cover  w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem] xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
+                    className="object-cover  w-[4rem] max-w-[4rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem] xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                     // className="max-w-full h-auto"
                   />
                 </div>
@@ -137,14 +137,14 @@ const OurSolution = () => {
                     className="w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"
                   /> */}
                   <div className="bg-bright-blue w-[0.40rem] h-[0.40rem] md:w-2 md:h-2  rounded "></div>
-                  <div className="dashline w-[7rem] md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
+                  <div className="dashline w-[3.5rem] sm:w-[7rem]  md:w-[10rem] lg:w-[7rem] xl:w-[8rem]"></div>
                 </div>
                 <div className="">
                   <img
                     src={banking}
                     alt=""
                     // className="object-cover w-[7rem] max-w-[4rem]"
-                    className="object-cover w-[5rem] max-w-[5rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
+                    className="object-cover w-[4rem] max-w-[4rem] md:w-[6rem] md:max-w-[8rem] lg:w-[12rem] lg:max-w-[12rem]  xl:w-[11rem] xl:max-w-[11rem] 2xl:w-[15rem] 2xl:max-w-[15rem]"
                   />
                 </div>
               </div>
